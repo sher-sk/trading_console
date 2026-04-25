@@ -131,6 +131,8 @@ function calcTotals() {
 }
 
 function updateView() {
+    document.querySelector('.controls').remove();
+
     tableData.sort((a, b) => {
         let vA = (sortCol.includes('.') ? sortCol.split('.').reduce((o, i) => o?.[i], a) : a[sortCol]) ?? '';
         let vB = (sortCol.includes('.') ? sortCol.split('.').reduce((o, i) => o?.[i], b) : b[sortCol]) ?? '';
