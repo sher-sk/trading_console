@@ -76,7 +76,7 @@ tr:hover td { background-color: rgba(128, 128, 128, 0.1); }
 .direction-ce { background: var(--dir-ce-bg); color: var(--positive); }
 .direction-pe { background: var(--dir-pe-bg); color: var(--negative); }
 
-.heatmap-wrapper { display: flex; gap: 1.5rem; overflow-x: visible; padding-bottom: 0.5rem; }
+.heatmap-wrapper { display: flex; gap: 1.5rem; overflow-x: visible; padding-bottom: 0.5rem; justify-content: flex-end;}
 .month-block {margin-left:6px;  display: flex; flex-direction: column; min-width: 140px; border-right: 1px dashed var(--glass-border); padding-right: 1.5rem; }
 .month-block:last-child { border-right: none; padding-right: 0; }
 .month-header { font-size: 0.95rem; font-weight: 600; margin-bottom: 0.5rem; color: var(--text-primary); }
