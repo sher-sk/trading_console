@@ -1,0 +1,2369 @@
+[
+  {
+    "date": "2026-04-30",
+    "direction": "PE",
+    "capitalUsed": 2853500,
+    "entryTime": "09:20:39",
+    "exitTime": "09:29:23",
+    "pnl": 383900,
+    "entryIndex": {
+      "NIFTY": 23924,
+      "SENSEX": 76698,
+      "BANK": 54690,
+      "VIX": 18.28
+    },
+    "exitIndex": {
+      "NIFTY": 23875,
+      "SENSEX": 76536,
+      "BANK": 54519,
+      "VIX": 18.38
+    },
+    "strikes": [
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 54800,
+        "entry": 1092,
+        "exit": 1224,
+        "points": 132,
+        "qty": 120,
+        "daysLeft": 26
+      },
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 54700,
+        "entry": 1051,
+        "exit": 1174,
+        "points": 123,
+        "qty": 120,
+        "daysLeft": 26
+      },
+      {
+        "symbol": "SENSEX",
+        "strike": 76800,
+        "entry": 251,
+        "exit": 357,
+        "points": 106,
+        "qty": 60,
+        "daysLeft": 0
+      },
+      {
+        "symbol": "NIFTY",
+        "strike": 23950,
+        "entry": 202,
+        "exit": 224,
+        "points": 22,
+        "qty": 65,
+        "daysLeft": 5
+      }
+    ],
+    "guriji": {
+      "direction": "PE",
+      "entryTime": "09:17",
+      "pnl": 4.96,
+      "exitTime": "09:29"
+    },
+    "notes": "initially planned for Call side bc of huge gap down but after low breaks it is clear that one bear move will going to happen",
+    "rating": {
+      "plan": 3,
+      "entry": 2,
+      "exit": 3,
+      "potentialPnl": 40000
+    }
+  },
+  {
+    "date": "2026-04-29",
+    "direction": "PE",
+    "capitalUsed": 2786850,
+    "entryTime": "09:27:24",
+    "exitTime": "09:47:29",
+    "pnl": -177000,
+    "entryIndex": {
+      "NIFTY": 24108,
+      "SENSEX": 77275,
+      "BANK": 55501,
+      "VIX": 17.41
+    },
+    "exitIndex": {
+      "NIFTY": 24151,
+      "SENSEX": 77392,
+      "BANK": 55588,
+      "VIX": 17.15
+    },
+    "strikes": [
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 55600,
+        "entry": 1065,
+        "exit": 1009,
+        "points": -56,
+        "qty": 120,
+        "daysLeft": -27
+      },
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 55500,
+        "entry": 1027,
+        "exit": 973,
+        "points": -54,
+        "qty": 120,
+        "daysLeft": -27
+      },
+      {
+        "symbol": "SENSEX",
+        "strike": 77200,
+        "entry": 269,
+        "exit": 220,
+        "points": -49,
+        "qty": 60,
+        "daysLeft": -1
+      },
+      {
+        "symbol": "NIFTY",
+        "strike": 24100,
+        "entry": 177,
+        "exit": 153,
+        "points": -24,
+        "qty": 65,
+        "daysLeft": -6
+      }
+    ],
+    "guriji": {
+      "direction": "PE",
+      "entryTime": "09:34",
+      "pnl": -2.8,
+      "exitTime": "09:46"
+    },
+    "rating": {
+      "potentialPnl": -62000,
+      "plan": 2,
+      "entry": 2,
+      "exit": 2
+    }
+  },
+  {
+    "date": "2026-04-28",
+    "direction": "PE",
+    "capitalUsed": 604700,
+    "entryTime": "09:25:30",
+    "exitTime": "09:45:49",
+    "pnl": -176800,
+    "entryIndex": {
+      "NIFTY": 24098,
+      "SENSEX": 77224,
+      "BANK": 55932,
+      "VIX": 17.98
+    },
+    "exitIndex": {
+      "NIFTY": 24137,
+      "SENSEX": 77354,
+      "BANK": 56061,
+      "VIX": 17.84
+    },
+    "strikes": [
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 55900,
+        "entry": 152,
+        "exit": 90,
+        "points": -62,
+        "qty": 120,
+        "daysLeft": 0
+      },
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 55800,
+        "entry": 110,
+        "exit": 61,
+        "points": -49,
+        "qty": 120,
+        "daysLeft": 0
+      },
+      {
+        "symbol": "SENSEX",
+        "strike": 77200,
+        "entry": 421,
+        "exit": 370,
+        "points": -51,
+        "qty": 60,
+        "daysLeft": 2
+      },
+      {
+        "symbol": "NIFTY",
+        "strike": 24100,
+        "entry": 58,
+        "exit": 38,
+        "points": -20,
+        "qty": 65,
+        "daysLeft": 0
+      }
+    ],
+    "guriji": {
+      "direction": "CE",
+      "entryTime": "09:17",
+      "exitTime": "09:47",
+      "pnl": 3.5
+    },
+    "rating": {
+      "potentialPnl": -30000,
+      "plan": 1,
+      "entry": 3,
+      "exit": 3
+    },
+    "notes": "i don't have knowledge about this kind of move, guruji is confident about buying. i need to focus on buying when the market recovered in second half of prev day."
+  },
+  {
+    "date": "2026-04-27",
+    "direction": "PE",
+    "capitalUsed": 1019500,
+    "entryTime": "09:21:13",
+    "exitTime": "09:38:26",
+    "pnl": 388050,
+    "entryIndex": {
+      "NIFTY": 24049,
+      "SENSEX": 77139,
+      "BANK": 56416,
+      "VIX": 19.26
+    },
+    "exitIndex": {
+      "NIFTY": 24008,
+      "SENSEX": 77012,
+      "BANK": 56172,
+      "VIX": 19.01
+    },
+    "strikes": [
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 56400,
+        "entry": 276,
+        "exit": 422,
+        "points": 146,
+        "qty": 120,
+        "daysLeft": 1
+      },
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 56300,
+        "entry": 235,
+        "exit": 368,
+        "points": 133,
+        "qty": 120,
+        "daysLeft": 1
+      },
+      {
+        "symbol": "SENSEX",
+        "strike": 77100,
+        "entry": 558,
+        "exit": 624,
+        "points": 66,
+        "qty": 60,
+        "daysLeft": 3
+      },
+      {
+        "symbol": "NIFTY",
+        "strike": 24050,
+        "entry": 110,
+        "exit": 131,
+        "points": 21,
+        "qty": 65,
+        "daysLeft": 1
+      }
+    ],
+    "guriji": {
+      "direction": "PE",
+      "entryTime": "09:54",
+      "pnl": 2.69,
+      "exitTime": "10:26"
+    },
+    "rating": {
+      "plan": 3,
+      "entry": 3,
+      "exit": 3,
+      "potentialPnl": 42000
+    },
+    "notes": ""
+  },{
+    "date": "2026-04-24",
+    "direction": "CE",
+    "capitalUsed": 1655200,
+    "entryTime": "09:24:47",
+    "exitTime": "09:30:05",
+    "pnl": -297450,
+    "entryIndex": {
+      "NIFTY": 24094,
+      "SENSEX": 77336,
+      "BANK": 56328,
+      "VIX": 18.82
+    },
+    "exitIndex": {
+      "NIFTY": 24046,
+      "SENSEX": 77159,
+      "BANK": 56143,
+      "VIX": 18.88
+    },
+    "strikes": [
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 56400,
+        "entry": 476,
+        "exit": 382,
+        "points": -94,
+        "qty": 120,
+        "daysLeft": 4
+      },
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 56300,
+        "entry": 529,
+        "exit": 428,
+        "points": -101,
+        "qty": 120,
+        "daysLeft": 4
+      },
+      {
+        "symbol": "SENSEX",
+        "strike": 77700,
+        "entry": 610,
+        "exit": 527,
+        "points": -83,
+        "qty": 60,
+        "daysLeft": 6
+      },
+      {
+        "symbol": "NIFTY",
+        "strike": 24200,
+        "entry": 128,
+        "exit": 107,
+        "points": -21,
+        "qty": 65,
+        "daysLeft": 4
+      }
+    ],
+    "guriji": {
+      "direction": "CE",
+      "entryTime": "09:17",
+      "exitTime": "09:30",
+      "pnl": -3.26
+    },
+    "rating": {
+      "potentialPnl": -60000,
+      "plan": 1,
+      "entry": 2,
+      "exit": 3
+    }
+  },
+  {
+    "date": "2026-04-23",
+    "direction": "PE",
+    "capitalUsed": 1570200,
+    "entryTime": "09:20:57",
+    "exitTime": "09:41:10",
+    "pnl": -39900,
+    "entryIndex": {
+      "NIFTY": 24212,
+      "SENSEX": 77888,
+      "BANK": 56658,
+      "VIX": 18.83
+    },
+    "exitIndex": {
+      "NIFTY": 24213,
+      "SENSEX": 77863,
+      "BANK": 56679,
+      "VIX": 18.71
+    },
+    "strikes": [
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 56600,
+        "entry": 552,
+        "exit": 538,
+        "points": -14,
+        "qty": 120,
+        "daysLeft": -5
+      },
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 56500,
+        "entry": 508,
+        "exit": 491,
+        "points": -17,
+        "qty": 120,
+        "daysLeft": -5
+      },
+      {
+        "symbol": "SENSEX",
+        "strike": 78000,
+        "entry": 263,
+        "exit": 265,
+        "points": 2,
+        "qty": 60,
+        "daysLeft": -0
+      },
+      {
+        "symbol": "NIFTY",
+        "strike": 24200,
+        "entry": 216,
+        "exit": 210,
+        "points": -6,
+        "qty": 65,
+        "daysLeft": -5
+      }
+    ],
+    "guriji": {
+      "direction": "CE",
+      "exitTime": "09:51",
+      "pnl": 3.5,
+      "entryTime": "09:37"
+    },
+    "rating": {
+      "potentialPnl": -60000,
+      "plan": 1,
+      "entry": 3,
+      "exit": 3
+    },
+    "notes": ""
+  },
+  {
+    "date": "2026-04-22",
+    "direction": "PE",
+    "capitalUsed": 1980650,
+    "entryTime": "09:33:14",
+    "exitTime": "09:59:47",
+    "pnl": 286300,
+    "entryIndex": {
+      "NIFTY": 24459,
+      "SENSEX": 78785,
+      "BANK": 57214,
+      "VIX": 18.09
+    },
+    "exitIndex": {
+      "NIFTY": 24385,
+      "SENSEX": 78552,
+      "BANK": 57085,
+      "VIX": 18.37
+    },
+    "strikes": [
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 57200,
+        "entry": 651,
+        "exit": 721,
+        "points": 70,
+        "qty": 120,
+        "daysLeft": 6
+      },
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 57100,
+        "entry": 606,
+        "exit": 674,
+        "points": 68,
+        "qty": 120,
+        "daysLeft": 6
+      },
+      {
+        "symbol": "SENSEX",
+        "strike": 79000,
+        "entry": 526,
+        "exit": 686,
+        "points": 160,
+        "qty": 60,
+        "daysLeft": 1
+      },
+      {
+        "symbol": "NIFTY",
+        "strike": 24450,
+        "entry": 241,
+        "exit": 279,
+        "points": 38,
+        "qty": 65,
+        "daysLeft": 6
+      }
+    ],
+    "guriji": {
+      "direction": "PE",
+      "entryTime": "09:18",
+      "exitTime": "09:45",
+      "pnl": 2.76
+    },
+    "rating": {
+      "plan": 3,
+      "entry": 2,
+      "exit": 3,
+      "potentialPnl": 44000
+    }
+  },
+  {
+    "date": "2026-04-21",
+    "direction": "PE",
+    "capitalUsed": 2043700,
+    "entryTime": "09:24:15",
+    "exitTime": "09:32:53",
+    "pnl": 5300,
+    "entryIndex": {
+      "NIFTY": 24477,
+      "SENSEX": 78925,
+      "BANK": 57051,
+      "VIX": 18.15
+    },
+    "exitIndex": {
+      "NIFTY": 24460,
+      "SENSEX": 78864,
+      "BANK": 57020,
+      "VIX": 18.12
+    },
+    "strikes": [
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 57000,
+        "entry": 714,
+        "exit": 715,
+        "points": 1,
+        "qty": 120,
+        "daysLeft": 7
+      },
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 56900,
+        "entry": 671,
+        "exit": 670,
+        "points": -1,
+        "qty": 120,
+        "daysLeft": 7
+      },
+      {
+        "symbol": "SENSEX",
+        "strike": 78900,
+        "entry": 569,
+        "exit": 580,
+        "points": 11,
+        "qty": 60,
+        "daysLeft": 2
+      },
+      {
+        "symbol": "NIFTY",
+        "strike": 24450,
+        "entry": 62,
+        "exit": 60,
+        "points": -2,
+        "qty": 65,
+        "daysLeft": 0
+      }
+    ],
+    "guriji": {
+      "direction": "PE",
+      "entryTime": "09:52",
+      "exitTime": "10:38",
+      "pnl": -2.21
+    },
+    "rating": {
+      "plan": 1,
+      "entry": 3,
+      "exit": 3,
+      "potentialPnl": -30000
+    },
+    "notes": ""
+  },
+  {
+    "date": "2026-04-20",
+    "direction": "PE",
+    "capitalUsed": 2190050,
+    "entryTime": "09:20:28",
+    "exitTime": "09:28:25",
+    "pnl": -216150,
+    "entryIndex": {
+      "NIFTY": 24352,
+      "SENSEX": 78551,
+      "BANK": 56724,
+      "VIX": 18.34
+    },
+    "exitIndex": {
+      "NIFTY": 24406,
+      "SENSEX": 78712,
+      "BANK": 56899,
+      "VIX": 18.19
+    },
+    "strikes": [
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 56700,
+        "entry": 719,
+        "exit": 650,
+        "points": -69,
+        "qty": 120,
+        "daysLeft": 8
+      },
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 56600,
+        "entry": 673,
+        "exit": 610,
+        "points": -63,
+        "qty": 120,
+        "daysLeft": 8
+      },
+      {
+        "symbol": "SENSEX",
+        "strike": 78600,
+        "entry": 683,
+        "exit": 616,
+        "points": -67,
+        "qty": 60,
+        "daysLeft": 3
+      },
+      {
+        "symbol": "NIFTY",
+        "strike": 24400,
+        "entry": 169,
+        "exit": 142,
+        "points": -27,
+        "qty": 65,
+        "daysLeft": 1
+      }
+    ],
+    "guriji": {
+      "direction": "CE",
+      "entryTime": "09:21",
+      "pnl": 2.38,
+      "exitTime": "09:26"
+    },
+    "rating": {
+      "exit": 3,
+      "potentialPnl": -22000,
+      "plan": 3,
+      "entry": 2
+    }
+  },
+  {
+    "date": "2026-04-17",
+    "direction": "PE",
+    "capitalUsed": 2453900,
+    "entryTime": "09:21:15",
+    "exitTime": "10:05:05",
+    "pnl": -203400,
+    "entryIndex": {
+      "NIFTY": 24216,
+      "SENSEX": 78125,
+      "BANK": 56132,
+      "VIX": 18.23
+    },
+    "exitIndex": {
+      "NIFTY": 24256,
+      "SENSEX": 78227,
+      "BANK": 56202,
+      "VIX": 17.96
+    },
+    "strikes": [
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 56100,
+        "entry": 832,
+        "exit": 771,
+        "points": -61,
+        "qty": 120,
+        "daysLeft": 11
+      },
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 56000,
+        "entry": 791,
+        "exit": 732,
+        "points": -59,
+        "qty": 120,
+        "daysLeft": 11
+      },
+      {
+        "symbol": "SENSEX",
+        "strike": 78000,
+        "entry": 677,
+        "exit": 604,
+        "points": -73,
+        "qty": 60,
+        "daysLeft": 6
+      },
+      {
+        "symbol": "NIFTY",
+        "strike": 24150,
+        "entry": 154,
+        "exit": 130,
+        "points": -24,
+        "qty": 65,
+        "daysLeft": 4
+      }
+    ],
+    "guriji": {
+      "direction": "PE",
+      "entryTime": "09:16",
+      "exitTime": "10:04",
+      "pnl": -3.22
+    },
+    "rating": {
+      "potentialPnl": -30000,
+      "plan": 3,
+      "entry": 2,
+      "exit": 2
+    }
+  },
+  {
+    "date": "2026-04-16",
+    "direction": "PE",
+    "capitalUsed": 2184200,
+    "entryTime": "09:20:37",
+    "exitTime": "09:37:47",
+    "pnl": 278800,
+    "entryIndex": {
+      "NIFTY": 24390,
+      "SENSEX": 78652,
+      "BANK": 56801,
+      "VIX": 18.12
+    },
+    "exitIndex": {
+      "NIFTY": 24339,
+      "SENSEX": 78472,
+      "BANK": 56596,
+      "VIX": 18.08
+    },
+    "strikes": [
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 56800,
+        "entry": 815,
+        "exit": 907,
+        "points": 92,
+        "qty": 120,
+        "daysLeft": 12
+      },
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 56700,
+        "entry": 769,
+        "exit": 862,
+        "points": 93,
+        "qty": 120,
+        "daysLeft": 12
+      },
+      {
+        "symbol": "SENSEX",
+        "strike": 78700,
+        "entry": 247,
+        "exit": 320,
+        "points": 73,
+        "qty": 60,
+        "daysLeft": 0
+      },
+      {
+        "symbol": "NIFTY",
+        "strike": 24400,
+        "entry": 208,
+        "exit": 228,
+        "points": 20,
+        "qty": 65,
+        "daysLeft": 5
+      }
+    ],
+    "guriji": {
+      "direction": "CE",
+      "entryTime": "09:17",
+      "exitTime": "09:20",
+      "pnl": 2.22
+    },
+    "rating": {
+      "potentialPnl": 45000,
+      "plan": 3,
+      "entry": 3,
+      "exit": 2
+    }
+  },
+  {
+    "date": "2026-04-15",
+    "direction": "CE",
+    "capitalUsed": 2298100,
+    "entryTime": "09:30:58",
+    "exitTime": "10:39:28",
+    "pnl": 22100,
+    "entryIndex": {
+      "NIFTY": 24184,
+      "SENSEX": 77968,
+      "BANK": 56474,
+      "VIX": 18.71
+    },
+    "exitIndex": {
+      "NIFTY": 24245,
+      "SENSEX": 78171,
+      "BANK": 56465,
+      "VIX": 18.61
+    },
+    "strikes": [
+      {
+        "symbol": "BANK",
+        "strike": 56800,
+        "entry": 801,
+        "exit": 789,
+        "points": -12,
+        "qty": 120,
+        "daysLeft": 13
+      },
+      {
+        "symbol": "BANK",
+        "strike": 56700,
+        "entry": 855,
+        "exit": 843,
+        "points": -12,
+        "qty": 120,
+        "daysLeft": 13
+      },
+      {
+        "symbol": "SENSEX",
+        "strike": 78200,
+        "entry": 295,
+        "exit": 356,
+        "points": 61,
+        "qty": 60,
+        "daysLeft": 1
+      },
+      {
+        "symbol": "NIFTY",
+        "strike": 24250,
+        "entry": 206,
+        "exit": 228,
+        "points": 22,
+        "qty": 65,
+        "daysLeft": 6
+      }
+    ],
+    "guriji": {
+      "direction": "CE",
+      "entryTime": "09:38",
+      "exitTime": "09:44",
+      "pnl": 2.43
+    },
+    "rating": {
+      "plan": 2,
+      "entry": 2,
+      "exit": 1,
+      "potentialPnl": 35000
+    }
+  },
+  {
+    "date": "2026-04-13",
+    "direction": "PE",
+    "capitalUsed": 2962350,
+    "entryTime": "09:22:54",
+    "exitTime": "09:54:31",
+    "pnl": -250950,
+    "entryIndex": {
+      "NIFTY": 23574,
+      "SENSEX": 75954,
+      "BANK": 54537
+    },
+    "exitIndex": {
+      "NIFTY": 23654,
+      "SENSEX": 76214,
+      "BANK": 54755
+    },
+    "strikes": [
+      {
+        "symbol": "BANK",
+        "strike": 54500,
+        "entry": 1045,
+        "exit": 974,
+        "points": -71,
+        "qty": 120,
+        "daysLeft": -14
+      },
+      {
+        "symbol": "BANK",
+        "strike": 54400,
+        "entry": 1005,
+        "exit": 942,
+        "points": -63,
+        "qty": 120,
+        "daysLeft": -14
+      },
+      {
+        "symbol": "SENSEX",
+        "strike": 76000,
+        "entry": 730,
+        "exit": 622,
+        "points": -108,
+        "qty": 60,
+        "daysLeft": -3
+      },
+      {
+        "symbol": "NIFTY",
+        "strike": 23600,
+        "entry": 99,
+        "exit": 60,
+        "points": -39,
+        "qty": 65,
+        "daysLeft": -0
+      }
+    ],
+    "guriji": {
+      "direction": "CE",
+      "entryTime": "09:45",
+      "pnl": 4.35,
+      "exitTime": "10:25"
+    },
+    "rating": {
+      "plan": 3,
+      "entry": 2,
+      "exit": 3,
+      "potentialPnl": -50000
+    }
+  },
+
+  {
+    "date": "2026-04-10",
+    "direction": "PE",
+    "capitalUsed": 2380250,
+    "entryTime": "09:31:52",
+    "exitTime": "10:15:07",
+    "pnl": -269400,
+    "entryIndex": {
+      "NIFTY": 23937,
+      "SENSEX": 77132,
+      "BANKNIFTY": 55658
+    },
+    "exitIndex": {
+      "NIFTY": 24003,
+      "SENSEX": 77389,
+      "BANKNIFTY": 55877
+    },
+    "strikes": [
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 55200,
+        "entry": 790,
+        "exit": 722,
+        "points": -68,
+        "qty": 1200,
+        "daysLeft": -18
+      },
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 55100,
+        "entry": 757,
+        "exit": 691,
+        "points": -66,
+        "qty": 1200,
+        "daysLeft": -18
+      },
+      {
+        "symbol": "SENSEX",
+        "strike": 77100,
+        "entry": 716,
+        "exit": 574,
+        "points": -142,
+        "qty": 600,
+        "daysLeft": -6
+      },
+      {
+        "symbol": "NIFTY",
+        "strike": 23900,
+        "entry": 145,
+        "exit": 109,
+        "points": -36,
+        "qty": 650,
+        "daysLeft": -3
+      }
+    ],
+    "guriji": {
+      "direction": "PE",
+      "entryTime": "09:19",
+      "exitTime": "09:43",
+      "pnl": -2.11
+    },
+    "rating": {
+      "potentialPnl": -3,
+      "plan": 1,
+      "entry": 3,
+      "exit": 3
+    }
+  },
+  {
+    "date": "2026-04-09",
+    "direction": "PE",
+    "capitalUsed": 2893850,
+    "entryTime": "09:21:10",
+    "exitTime": "09:39:52",
+    "pnl": 271000,
+    "entryIndex": {
+      "NIFTY": 23937,
+      "SENSEX": 77296,
+      "BANKNIFTY": 55493
+    },
+    "exitIndex": {
+      "NIFTY": 23882,
+      "SENSEX": 77063,
+      "BANKNIFTY": 55321
+    },
+    "strikes": [
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 55700,
+        "entry": 1108,
+        "exit": 1191,
+        "points": 83,
+        "qty": 1200,
+        "daysLeft": 19
+      },
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 55600,
+        "entry": 1066,
+        "exit": 1148,
+        "points": 82,
+        "qty": 1200,
+        "daysLeft": 19
+      },
+      {
+        "symbol": "SENSEX",
+        "strike": 77300,
+        "entry": 279,
+        "exit": 379,
+        "points": 100,
+        "qty": 600,
+        "daysLeft": 0
+      },
+      {
+        "symbol": "NIFTY",
+        "strike": 23900,
+        "entry": 181,
+        "exit": 201,
+        "points": 20,
+        "qty": 650,
+        "daysLeft": 4
+      }
+    ],
+    "guriji": {
+      "direction": "CE",
+      "pnl": 2.22,
+      "entryTime": "09:18",
+      "exitTime": "09:30"
+    },
+    "rating": {
+      "plan": 3,
+      "entry": 2,
+      "exit": 2,
+      "potentialPnl": 8
+    }
+  },
+  {
+    "date": "2026-04-08",
+    "direction": "PE",
+    "capitalUsed": 2724750,
+    "entryTime": "09:37:32",
+    "exitTime": "10:29:03",
+    "pnl": -283850,
+    "entryIndex": {
+      "NIFTY": 23909,
+      "SENSEX": 77284,
+      "BANKNIFTY": 55103
+    },
+    "exitIndex": {
+      "NIFTY": 23912,
+      "SENSEX": 77276,
+      "BANKNIFTY": 55307
+    },
+    "strikes": [
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 54900,
+        "entry": 978,
+        "exit": 873,
+        "points": -105,
+        "qty": 1200,
+        "daysLeft": 20
+      },
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 54800,
+        "entry": 940,
+        "exit": 835,
+        "points": -105,
+        "qty": 1200,
+        "daysLeft": 20
+      },
+      {
+        "symbol": "SENSEX",
+        "strike": 77300,
+        "entry": 481,
+        "exit": 442,
+        "points": -39,
+        "qty": 600,
+        "daysLeft": 1
+      },
+      {
+        "symbol": "NIFTY",
+        "strike": 23850,
+        "entry": 207,
+        "exit": 194,
+        "points": -13,
+        "qty": 650,
+        "daysLeft": 5
+      }
+    ],
+    "guriji": {
+      "direction": "CE",
+      "entryTime": "09:26",
+      "exitTime": "09:44",
+      "pnl": 2.5
+    },
+    "rating": {
+      "potentialPnl": -6,
+      "plan": 2,
+      "entry": 2,
+      "exit": 3
+    }
+  },
+  {
+    "date": "2026-04-07",
+    "direction": "CE",
+    "capitalUsed": 4111200,
+    "entryTime": "09:21:01",
+    "exitTime": "09:29:39",
+    "pnl": 404800,
+    "entryIndex": {
+      "NIFTY": 22771,
+      "SENSEX": 73429,
+      "BANKNIFTY": 51926
+    },
+    "exitIndex": {
+      "NIFTY": 22889,
+      "SENSEX": 73824,
+      "BANKNIFTY": 52215
+    },
+    "strikes": [
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 52300,
+        "entry": 1484,
+        "exit": 1590,
+        "points": 106,
+        "qty": 1200,
+        "daysLeft": 21
+      },
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 52200,
+        "entry": 1545,
+        "exit": 1649,
+        "points": 104,
+        "qty": 1200,
+        "daysLeft": 21
+      },
+      {
+        "symbol": "SENSEX",
+        "strike": 73700,
+        "entry": 729,
+        "exit": 910,
+        "points": 181,
+        "qty": 600,
+        "daysLeft": 2
+      },
+      {
+        "symbol": "NIFTY",
+        "strike": 22850,
+        "entry": 60,
+        "exit": 128,
+        "points": 68,
+        "qty": 650,
+        "daysLeft": 0
+      }
+    ],
+    "guriji": {
+      "direction": "CE",
+      "entryTime": "09:18",
+      "pnl": 3.8,
+      "exitTime": "09:27"
+    },
+    "rating": {
+      "potentialPnl": 10,
+      "plan": 3,
+      "entry": 3,
+      "exit": 3
+    },
+    "notes": ""
+  },
+  {
+    "date": "2026-04-06",
+    "direction": "PE",
+    "capitalUsed": 4573700,
+    "entryTime": "09:30:10",
+    "exitTime": "09:33:18",
+    "pnl": -324600,
+    "entryIndex": {
+      "NIFTY": 22602,
+      "SENSEX": 72922,
+      "BANKNIFTY": 51341
+    },
+    "exitIndex": {
+      "NIFTY": 22667,
+      "SENSEX": 73096,
+      "BANKNIFTY": 51569
+    },
+    "strikes": [
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 51400,
+        "entry": 1578,
+        "exit": 1480,
+        "points": -98,
+        "qty": 1200,
+        "daysLeft": 22
+      },
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 51300,
+        "entry": 1539,
+        "exit": 1440,
+        "points": -99,
+        "qty": 1200,
+        "daysLeft": 22
+      },
+      {
+        "symbol": "SENSEX",
+        "strike": 73200,
+        "entry": 1092,
+        "exit": 984,
+        "points": -108,
+        "qty": 600,
+        "daysLeft": 3
+      },
+      {
+        "symbol": "NIFTY",
+        "strike": 22700,
+        "entry": 274,
+        "exit": 238,
+        "points": -36,
+        "qty": 650,
+        "daysLeft": 1
+      }
+    ],
+    "guriji": {
+      "direction": "CE",
+      "entryTime": "09:29",
+      "pnl": 3.5,
+      "exitTime": "09:33"
+    },
+    "rating": {
+      "plan": 3,
+      "entry": 1,
+      "exit": 3,
+      "potentialPnl": -6
+    }
+  },
+  {
+    "date": "2026-04-02",
+    "direction": "PE",
+    "capitalUsed": 4788550,
+    "entryTime": "09:31:40",
+    "exitTime": "10:00:14",
+    "pnl": 336200,
+    "strikes": [
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 50600,
+        "entry": 1761,
+        "exit": 1850,
+        "points": 89,
+        "qty": 1200,
+        "daysLeft": 26
+      },
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 50500,
+        "entry": 1713,
+        "exit": 1810,
+        "points": 97,
+        "qty": 1200,
+        "daysLeft": 26
+      },
+      {
+        "symbol": "SENSEX",
+        "strike": 72300,
+        "entry": 644,
+        "exit": 776,
+        "points": 132,
+        "qty": 600,
+        "daysLeft": 0
+      },
+      {
+        "symbol": "NIFTY",
+        "strike": 22400,
+        "entry": 359,
+        "exit": 411,
+        "points": 52,
+        "qty": 650,
+        "daysLeft": 5
+      }
+    ],
+    "guriji": {
+      "direction": "PE",
+      "entryTime": "09:47",
+      "exitTime": "10:00",
+      "pnl": 2.62
+    },
+    "rating": {
+      "exit": 2,
+      "entry": 2,
+      "plan": 3,
+      "potentialPnl": 6
+    }
+  },
+  {
+    "date": "2026-04-01",
+    "direction": "PE",
+    "capitalUsed": 3667150,
+    "entryTime": "09:25:36",
+    "exitTime": "09:32:58",
+    "pnl": 343200,
+    "strikes": [
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 51500,
+        "entry": 1370,
+        "exit": 1485,
+        "points": 115,
+        "qty": 1200,
+        "daysLeft": 27
+      },
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 51400,
+        "entry": 1332,
+        "exit": 1451,
+        "points": 119,
+        "qty": 1200,
+        "daysLeft": 27
+      },
+      {
+        "symbol": "SENSEX",
+        "strike": 73600,
+        "entry": 410,
+        "exit": 488,
+        "points": 78,
+        "qty": 600,
+        "daysLeft": 1
+      },
+      {
+        "symbol": "NIFTY",
+        "strike": 22850,
+        "entry": 275,
+        "exit": 299,
+        "points": 24,
+        "qty": 650,
+        "daysLeft": 6
+      }
+    ],
+    "guriji": {
+      "direction": "CE",
+      "entryTime": "09:40",
+      "exitTime": "10:21",
+      "pnl": -3.21
+    },
+    "notes": "",
+    "rating": {
+      "potentialPnl": 10,
+      "plan": 3,
+      "entry": 3,
+      "exit": 3
+    }
+  },
+  {
+    "date": "2026-03-30",
+    "direction": "PE",
+    "capitalUsed": 1682800,
+    "entryTime": "09:16:56",
+    "exitTime": "09:18:05",
+    "pnl": -293150,
+    "strikes": [
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 51200,
+        "entry": 443,
+        "exit": 348,
+        "points": -95,
+        "qty": 1200,
+        "daysLeft": 0
+      },
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 51100,
+        "entry": 386,
+        "exit": 293,
+        "points": -93,
+        "qty": 1200,
+        "daysLeft": 0
+      },
+      {
+        "symbol": "SENSEX",
+        "strike": 72400,
+        "entry": 1008,
+        "exit": 916,
+        "points": -92,
+        "qty": 600,
+        "daysLeft": 3
+      },
+      {
+        "symbol": "NIFTY",
+        "strike": 22500,
+        "entry": 128,
+        "exit": 109,
+        "points": -19,
+        "qty": 650,
+        "daysLeft": 0
+      }
+    ],
+    "guriji": {
+      "direction": "PE",
+      "entryTime": "09:55",
+      "exitTime": "10:54",
+      "pnl": 2.8
+    },
+    "notes": "",
+    "rating": {
+      "potentialPnl": -10,
+      "entry": 1,
+      "exit": 1,
+      "plan": 1
+    }
+  },
+  {
+    "date": "2026-03-27",
+    "direction": "CE",
+    "capitalUsed": 2587750,
+    "entryTime": "09:15:34",
+    "exitTime": "09:16:13",
+    "pnl": -313900,
+    "strikes": [
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 53100,
+        "entry": 687,
+        "exit": 567,
+        "points": -120,
+        "qty": 1200,
+        "daysLeft": 3
+      },
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 53000,
+        "entry": 742,
+        "exit": 620,
+        "points": -122,
+        "qty": 1200,
+        "daysLeft": 3
+      },
+      {
+        "symbol": "SENSEX",
+        "strike": 74600,
+        "entry": 1183,
+        "exit": 1159,
+        "points": -24,
+        "qty": 600,
+        "daysLeft": 6
+      },
+      {
+        "symbol": "NIFTY",
+        "strike": 23100,
+        "entry": 251,
+        "exit": 237,
+        "points": -14,
+        "qty": 650,
+        "daysLeft": 3
+      }
+    ],
+    "guriji": {
+      "direction": "PE",
+      "entryTime": "09:18",
+      "exitTime": "09:34",
+      "pnl": 2.5
+    },
+    "rating": {
+      "plan": 1,
+      "entry": 1,
+      "exit": 3,
+      "potentialPnl": -15
+    },
+    "notes": ""
+  },
+  {
+    "date": "2026-03-25",
+    "direction": "PE",
+    "capitalUsed": 1903150,
+    "entryTime": "09:18:01",
+    "exitTime": "09:44:05",
+    "pnl": -288300,
+    "strikes": [
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 53300,
+        "entry": 685,
+        "exit": 602,
+        "points": -85,
+        "qty": 1200,
+        "daysLeft": 5
+      },
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 53200,
+        "entry": 646,
+        "exit": 565,
+        "points": -81,
+        "qty": 1200,
+        "daysLeft": 5
+      },
+      {
+        "symbol": "SENSEX",
+        "strike": 74700,
+        "entry": 225,
+        "exit": 122,
+        "points": -103,
+        "qty": 600,
+        "daysLeft": 0
+      },
+      {
+        "symbol": "NIFTY",
+        "strike": 23100,
+        "entry": 263,
+        "exit": 221,
+        "points": -42,
+        "qty": 650,
+        "daysLeft": 5
+      }
+    ],
+    "rating": {
+      "plan": 1,
+      "entry": 3,
+      "exit": 3,
+      "potentialPnl": -5.2
+    },
+    "notes": "planning m 2-3 mistakes thi:-\n1) previous day m sell with trapper nhi that bc gapup open hua tha\n2) jisne buttom m buy kara hoga wo bada buyer hoga isiliye today is gapup\n3) i was comparing with 18 March but actually that day is also positive.",
+    "guriji": {
+      "direction": "CE",
+      "entryTime": "09:21",
+      "exitTime": "09:35",
+      "pnl": 3.5
+    }
+  },
+  {
+    "date": "2026-03-24",
+    "direction": "CE",
+    "capitalUsed": 2890550,
+    "entryTime": "09:37:40",
+    "exitTime": "09:45:48",
+    "pnl": -316800,
+    "strikes": [
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 52300,
+        "entry": 976,
+        "exit": 882,
+        "points": -94,
+        "qty": 1200,
+        "daysLeft": -6
+      },
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 52200,
+        "entry": 1038,
+        "exit": 941,
+        "points": -97,
+        "qty": 1200,
+        "daysLeft": -6
+      },
+      {
+        "symbol": "SENSEX",
+        "strike": 73500,
+        "entry": 678,
+        "exit": 571,
+        "points": -107,
+        "qty": 600,
+        "daysLeft": -1
+      },
+      {
+        "symbol": "NIFTY",
+        "strike": 22800,
+        "entry": 103,
+        "exit": 67,
+        "points": -36,
+        "qty": 650,
+        "daysLeft": -0
+      }
+    ],
+    "rating": {
+      "plan": 3,
+      "entry": 1,
+      "exit": 3,
+      "potentialPnl": 3
+    },
+    "notes": "",
+    "guriji": {
+      "direction": "PE",
+      "pnl": 2.8,
+      "entryTime": "09:16",
+      "exitTime": "09:28"
+    }
+  },
+  {
+    "date": "2026-03-23",
+    "direction": "PE",
+    "capitalUsed": 2984750,
+    "entryTime": "09:24:54",
+    "exitTime": "09:27:35",
+    "pnl": -127700,
+    "strikes": [
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 52200,
+        "entry": 983,
+        "exit": 941,
+        "points": -42,
+        "qty": 1200,
+        "daysLeft": 7
+      },
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 52100,
+        "entry": 942,
+        "exit": 901,
+        "points": -41,
+        "qty": 1200,
+        "daysLeft": 7
+      },
+      {
+        "symbol": "SENSEX",
+        "strike": 73200,
+        "entry": 883,
+        "exit": 847,
+        "points": -36,
+        "qty": 600,
+        "daysLeft": 2
+      },
+      {
+        "symbol": "NIFTY",
+        "strike": 22700,
+        "entry": 223,
+        "exit": 213,
+        "points": -10,
+        "qty": 650,
+        "daysLeft": 1
+      }
+    ],
+    "rating": {
+      "plan": 1,
+      "entry": 2,
+      "exit": 1,
+      "potentialPnl": 6
+    },
+    "notes": "(darpok) was planned to buy but sell karna pada\nshould waited for complete loss or profit",
+    "guriji": {
+      "direction": "PE",
+      "pnl": 4,
+      "entryTime": "09:23",
+      "exitTime": "09:50"
+    }
+  },
+  {
+    "date": "2026-03-20",
+    "direction": "CE",
+    "capitalUsed": 4759600,
+    "entryTime": "9:17:32",
+    "exitTime": "9:20:10",
+    "pnl": 394600,
+    "strikes": [
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 53500,
+        "entry": 1365,
+        "exit": 1475,
+        "points": 110,
+        "qty": 1200,
+        "daysLeft": 10
+      },
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 53400,
+        "entry": 1435,
+        "exit": 1550,
+        "points": 115,
+        "qty": 1200,
+        "daysLeft": 10
+      },
+      {
+        "symbol": "SENSEX",
+        "strike": 74600,
+        "entry": 1140,
+        "exit": 1245,
+        "points": 105,
+        "qty": 840,
+        "daysLeft": 5
+      },
+      {
+        "symbol": "NIFTY",
+        "strike": 23100,
+        "entry": 340,
+        "exit": 368,
+        "points": 28,
+        "qty": 1300,
+        "daysLeft": 4
+      }
+    ],
+    "notes": "",
+    "rating": {
+      "exit": 2,
+      "plan": 3,
+      "entry": 2,
+      "potentialPnl": 8.5
+    },
+    "guriji": {
+      "direction": "PE",
+      "pnl": -3,
+      "entryTime": "09:22",
+      "exitTime": "09:34"
+    }
+  },
+  {
+    "date": "2026-03-19",
+    "direction": "PE",
+    "capitalUsed": 2325940,
+    "entryTime": "9:30:09",
+    "exitTime": "9:38:43",
+    "pnl": 270960,
+    "strikes": [
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 53800,
+        "entry": 775,
+        "exit": 850,
+        "points": 75,
+        "qty": 1200,
+        "daysLeft": 11
+      },
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 53700,
+        "entry": 740,
+        "exit": 810,
+        "points": 70,
+        "qty": 1200,
+        "daysLeft": 11
+      },
+      {
+        "symbol": "SENSEX",
+        "strike": 75100,
+        "entry": 241,
+        "exit": 310,
+        "points": 69,
+        "qty": 840,
+        "daysLeft": 0
+      },
+      {
+        "symbol": "NIFTY",
+        "strike": 23300,
+        "entry": 235,
+        "exit": 265,
+        "points": 30,
+        "qty": 1300,
+        "daysLeft": 5
+      }
+    ],
+    "notes": "",
+    "rating": {
+      "exit": 3,
+      "plan": 3,
+      "entry": 2,
+      "potentialPnl": 5
+    },
+    "guriji": {
+      "direction": "CE",
+      "entryTime": "09:20",
+      "exitTime": "09:26",
+      "pnl": 4.5
+    }
+  },
+  {
+    "date": "2026-03-18",
+    "direction": "PE",
+    "capitalUsed": 2316100,
+    "entryTime": "9:21:01",
+    "exitTime": "9:28:06",
+    "pnl": 175300,
+    "strikes": [
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 55000,
+        "entry": 755,
+        "exit": 800,
+        "points": 45,
+        "qty": 1200,
+        "daysLeft": 12
+      },
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 54900,
+        "entry": 715,
+        "exit": 760,
+        "points": 45,
+        "qty": 1200,
+        "daysLeft": 12
+      },
+      {
+        "symbol": "SENSEX",
+        "strike": 76400,
+        "entry": 340,
+        "exit": 400,
+        "points": 60,
+        "qty": 840,
+        "daysLeft": 1
+      },
+      {
+        "symbol": "NIFTY",
+        "strike": 23700,
+        "entry": 205,
+        "exit": 218,
+        "points": 13,
+        "qty": 1300,
+        "daysLeft": 6
+      }
+    ],
+    "notes": "samne profit dikh raha tha toh bhi book nhi kara,\nshould waited for full profit or full loss.",
+    "rating": {
+      "exit": 1,
+      "plan": 3,
+      "entry": 2
+    },
+    "guriji": {
+      "direction": "CE",
+      "entryTime": "09:16",
+      "exitTime": "09:22",
+      "pnl": 1.9
+    }
+  },
+  {
+    "date": "2026-03-17",
+    "direction": "CE",
+    "capitalUsed": 2651500,
+    "entryTime": "9:29:54",
+    "exitTime": "9:36:54",
+    "pnl": 289400,
+    "strikes": [
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 54700,
+        "entry": 830,
+        "exit": 890,
+        "points": 60,
+        "qty": 1200,
+        "daysLeft": 13
+      },
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 54600,
+        "entry": 875,
+        "exit": 945,
+        "points": 70,
+        "qty": 1200,
+        "daysLeft": 13
+      },
+      {
+        "symbol": "SENSEX",
+        "strike": 75500,
+        "entry": 580,
+        "exit": 680,
+        "points": 100,
+        "qty": 840,
+        "daysLeft": 2
+      },
+      {
+        "symbol": "NIFTY",
+        "strike": 23350,
+        "entry": 91,
+        "exit": 129,
+        "points": 38,
+        "qty": 1300,
+        "daysLeft": 0
+      }
+    ],
+    "notes": "",
+    "rating": {
+      "exit": 2,
+      "plan": 3,
+      "entry": 3,
+      "potentialPnl": 8
+    },
+    "guriji": {
+      "direction": "PE",
+      "entryTime": "09:15",
+      "exitTime": "09:27",
+      "pnl": 4
+    }
+  },
+  {
+    "date": "2026-03-16",
+    "direction": "CE",
+    "capitalUsed": 3863140,
+    "entryTime": "9:25:38",
+    "exitTime": "9:31:38",
+    "pnl": 465660,
+    "strikes": [
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 53800,
+        "entry": 1240,
+        "exit": 1365,
+        "points": 125,
+        "qty": 1200,
+        "daysLeft": 14
+      },
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 53900,
+        "entry": 1180,
+        "exit": 1300,
+        "points": 120,
+        "qty": 1200,
+        "daysLeft": 14
+      },
+      {
+        "symbol": "SENSEX",
+        "strike": 74500,
+        "entry": 871,
+        "exit": 1015,
+        "points": 144,
+        "qty": 840,
+        "daysLeft": 3
+      },
+      {
+        "symbol": "NIFTY",
+        "strike": 23150,
+        "entry": 175,
+        "exit": 214,
+        "points": 39,
+        "qty": 1300,
+        "daysLeft": 1
+      }
+    ],
+    "notes": "",
+    "rating": {
+      "exit": 2,
+      "plan": 3,
+      "entry": 3,
+      "potentialPnl": 9
+    },
+    "guriji": {
+      "direction": "PE",
+      "entryTime": "09:20",
+      "exitTime": "09:25",
+      "pnl": 2.2
+    }
+  },
+  {
+    "date": "2026-03-13",
+    "direction": "PE",
+    "capitalUsed": 3624000,
+    "entryTime": "9:16:53",
+    "exitTime": "9:28:26",
+    "pnl": -3800,
+    "strikes": [
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 54600,
+        "entry": 1065,
+        "exit": 1115,
+        "points": 50,
+        "qty": 1200,
+        "daysLeft": 17
+      },
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 54500,
+        "entry": 1030,
+        "exit": 1075,
+        "points": 45,
+        "qty": 1200,
+        "daysLeft": 17
+      },
+      {
+        "symbol": "SENSEX",
+        "strike": 75400,
+        "entry": 950,
+        "exit": 850,
+        "points": -100,
+        "qty": 840,
+        "daysLeft": 6
+      },
+      {
+        "symbol": "NIFTY",
+        "strike": 23450,
+        "entry": 240,
+        "exit": 214,
+        "points": -26,
+        "qty": 1300,
+        "daysLeft": 4
+      }
+    ],
+    "notes": "potential profit - target (darpok)",
+    "rating": {
+      "exit": 1,
+      "plan": 3,
+      "entry": 3
+    },
+    "guriji": {
+      "direction": "PE",
+      "entryTime": "09:16",
+      "exitTime": "09:26",
+      "pnl": 2.5
+    }
+  },
+  {
+    "date": "2026-03-12",
+    "direction": "CE",
+    "capitalUsed": 4226600,
+    "entryTime": "9:51:56",
+    "exitTime": "9:58:04",
+    "pnl": 287000,
+    "strikes": [
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 54900,
+        "entry": 1490,
+        "exit": 1575,
+        "points": 85,
+        "qty": 1200,
+        "daysLeft": 18
+      },
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 55000,
+        "entry": 1430,
+        "exit": 1510,
+        "points": 80,
+        "qty": 1200,
+        "daysLeft": 18
+      },
+      {
+        "symbol": "SENSEX",
+        "strike": 76000,
+        "entry": 365,
+        "exit": 440,
+        "points": 75,
+        "qty": 840,
+        "daysLeft": 0
+      },
+      {
+        "symbol": "NIFTY",
+        "strike": 23600,
+        "entry": 320,
+        "exit": 340,
+        "points": 20,
+        "qty": 1300,
+        "daysLeft": 5
+      }
+    ],
+    "notes": "was planned to sell but realised mistake and took reverse trade after booking little profit in puts.",
+    "rating": {
+      "exit": 3,
+      "plan": 1,
+      "entry": 3
+    },
+    "guriji": {
+      "direction": "PE",
+      "entryTime": "09:28",
+      "exitTime": "09:59",
+      "pnl": -3
+    }
+  },
+  {
+    "date": "2026-03-11",
+    "direction": "PE",
+    "capitalUsed": 2629300,
+    "entryTime": "9:23:10",
+    "exitTime": "9:31:57",
+    "pnl": 313800,
+    "strikes": [
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 56500,
+        "entry": 805,
+        "exit": 875,
+        "points": 70,
+        "qty": 1200,
+        "daysLeft": 19
+      },
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 56600,
+        "entry": 840,
+        "exit": 915,
+        "points": 75,
+        "qty": 1200,
+        "daysLeft": 19
+      },
+      {
+        "symbol": "SENSEX",
+        "strike": 78300,
+        "entry": 435,
+        "exit": 555,
+        "points": 120,
+        "qty": 840,
+        "daysLeft": 1
+      },
+      {
+        "symbol": "NIFTY",
+        "strike": 24250,
+        "entry": 223,
+        "exit": 253,
+        "points": 30,
+        "qty": 1300,
+        "daysLeft": 6
+      }
+    ],
+    "notes": "",
+    "rating": {
+      "exit": 2,
+      "plan": 3,
+      "entry": 3,
+      "potentialPnl": 10
+    },
+    "guriji": {
+      "direction": "PE",
+      "entryTime": "09:23",
+      "exitTime": "09:36",
+      "pnl": 3
+    }
+  },
+  {
+    "date": "2026-03-10",
+    "direction": "PE",
+    "capitalUsed": 3294500,
+    "entryTime": "9:48:19",
+    "exitTime": "10:15:53",
+    "pnl": -350200,
+    "strikes": [
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 56500,
+        "entry": 1025,
+        "exit": 935,
+        "points": -90,
+        "qty": 1200,
+        "daysLeft": 20
+      },
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 56600,
+        "entry": 1060,
+        "exit": 975,
+        "points": -85,
+        "qty": 1200,
+        "daysLeft": 20
+      },
+      {
+        "symbol": "SENSEX",
+        "strike": 78100,
+        "entry": 750,
+        "exit": 645,
+        "points": -105,
+        "qty": 840,
+        "daysLeft": 2
+      },
+      {
+        "symbol": "NIFTY",
+        "strike": 24200,
+        "entry": 125,
+        "exit": 85,
+        "points": -40,
+        "qty": 1300,
+        "daysLeft": 0
+      }
+    ],
+    "notes": "puts keep on decay on gapup",
+    "rating": {
+      "exit": 3,
+      "plan": 1,
+      "entry": 2
+    },
+    "guriji": {
+      "direction": "PE",
+      "entryTime": "09:26",
+      "exitTime": "10:17",
+      "pnl": -3
+    }
+  },
+  {
+    "date": "2026-03-09",
+    "direction": "PE",
+    "capitalUsed": 4517300,
+    "entryTime": "9:31:17",
+    "exitTime": "9:46:19",
+    "pnl": 631100,
+    "strikes": [
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 55500,
+        "entry": 1272,
+        "exit": 1495,
+        "points": 223,
+        "qty": 1200,
+        "daysLeft": 21
+      },
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 55400,
+        "entry": 1235,
+        "exit": 1450,
+        "points": 215,
+        "qty": 1200,
+        "daysLeft": 21
+      },
+      {
+        "symbol": "SENSEX",
+        "strike": 77600,
+        "entry": 1510,
+        "exit": 1600,
+        "points": 90,
+        "qty": 840,
+        "daysLeft": 3
+      },
+      {
+        "symbol": "NIFTY",
+        "strike": 23700,
+        "entry": 185,
+        "exit": 208,
+        "points": 23,
+        "qty": 1300,
+        "daysLeft": 1
+      }
+    ],
+    "notes": "potential profit - kismat\ndue to big gap down vix keep on increasing so puts price keep rising without market falling.",
+    "rating": {
+      "exit": 3,
+      "plan": 1,
+      "entry": 3
+    },
+    "guriji": {
+      "direction": "PE",
+      "pnl": 2.8,
+      "entryTime": "09:43",
+      "exitTime": "10:33"
+    }
+  },
+  {
+    "date": "2026-03-06",
+    "direction": "CE",
+    "capitalUsed": 4196960,
+    "entryTime": "9:21:25",
+    "exitTime": "10:30:53",
+    "pnl": -234560,
+    "strikes": [
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 58500,
+        "entry": 1275,
+        "exit": 1175,
+        "points": -100,
+        "qty": 1200,
+        "daysLeft": 24
+      },
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 58400,
+        "entry": 1330,
+        "exit": 1240,
+        "points": -90,
+        "qty": 1200,
+        "daysLeft": 24
+      },
+      {
+        "symbol": "SENSEX",
+        "strike": 79500,
+        "entry": 919,
+        "exit": 905,
+        "points": -14,
+        "qty": 840,
+        "daysLeft": 6
+      },
+      {
+        "symbol": "NIFTY",
+        "strike": 24600,
+        "entry": 230,
+        "exit": 234,
+        "points": 4,
+        "qty": 1300,
+        "daysLeft": 4
+      }
+    ],
+    "notes": "BN is week and we are bull 😭",
+    "rating": {
+      "exit": 3,
+      "plan": 1,
+      "entry": 2
+    },
+    "guriji": {
+      "direction": "CE",
+      "pnl": 3,
+      "entryTime": "09:30",
+      "exitTime": "10:02"
+    }
+  },
+  {
+    "date": "2026-03-05",
+    "direction": "CE",
+    "capitalUsed": 3392900,
+    "entryTime": "9:22:38",
+    "exitTime": "10:14:51",
+    "pnl": -190500,
+    "strikes": [
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 59000,
+        "entry": 1220,
+        "exit": 1175,
+        "points": -45,
+        "qty": 1200,
+        "daysLeft": 25
+      },
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 59100,
+        "entry": 1160,
+        "exit": 1115,
+        "points": -45,
+        "qty": 1200,
+        "daysLeft": 25
+      },
+      {
+        "symbol": "SENSEX",
+        "strike": 79500,
+        "entry": 260,
+        "exit": 185,
+        "points": -75,
+        "qty": 840,
+        "daysLeft": 0
+      },
+      {
+        "symbol": "NIFTY",
+        "strike": 24600,
+        "entry": 245,
+        "exit": 230,
+        "points": -15,
+        "qty": 1300,
+        "daysLeft": 5
+      }
+    ],
+    "notes": "puts keep on decay on gapup, so should waited for breakdown",
+    "rating": {
+      "exit": 2,
+      "plan": 3,
+      "entry": 1
+    },
+    "guriji": {
+      "direction": "PE",
+      "entryTime": "09:21",
+      "exitTime": "09:40",
+      "pnl": -3
+    }
+  }
+]
