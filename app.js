@@ -171,7 +171,7 @@ function buildThead() {
 
     thead.innerHTML = '';
     thead.appendChild(tr);
-    fetchData();
+    // fetchData();
 }
 
 // ── Heatmap ───────────────────────────────────────────────────────────────────
