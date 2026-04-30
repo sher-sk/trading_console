@@ -171,7 +171,6 @@ function buildThead() {
 
     thead.innerHTML = '';
     thead.appendChild(tr);
-    // fetchData();
 }
 
 // ── Heatmap ───────────────────────────────────────────────────────────────────
@@ -286,7 +285,7 @@ function updateView() {
 
 // Initial header build (no data yet)
 buildThead();
-
+fetchData();
 async function fetchData() {
     try {
         const response = await fetch('1.json');
