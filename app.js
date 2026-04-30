@@ -171,7 +171,6 @@ function buildThead() {
 
     thead.innerHTML = '';
     thead.appendChild(tr);
-    // fetchData();
 }
 
 // ── Heatmap ───────────────────────────────────────────────────────────────────
@@ -286,17 +285,3 @@ function updateView() {
 
 // Initial header build (no data yet)
 buildThead();
-
-async function fetchData() {
-    try {
-        const response = await fetch('1.json');
-        if (!response.ok) throw new Error('Network response was not ok');
-        
-        const data = await response.json();
-        tableData = data; updateView();
-        
-       
-    } catch (error) {
-        console.error('Error fetching data:', error);
-    } 
-}
