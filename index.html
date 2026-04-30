@@ -13,16 +13,16 @@
                 <button id="theme-toggle" class="icon-btn" title="Toggle Theme">☀️</button>
                 <h1>Trading Console</h1>
             </div>
-            
-            <div class="summary-stats">
-                <div class="stat-box">My Total PnL: <span id="my-total-pnl">0.00</span></div>
-                <div class="stat-box">Guriji PnL: <span id="guriji-total-pnl">0.00</span></div>
-            </div>
-
             <div class="controls">
                 <input type="file" id="file-import" accept=".json" style="display: none;">
                 <button id="import-btn" class="action-btn">Import JSON</button>
             </div>
+            <div class="summary-stats">
+                <div class="stat-box">My Total P/L: <span id="my-total-pnl">0.00</span></div>
+                <div class="stat-box">Guriji P/L: <span id="guriji-total-pnl">0.00</span></div>
+            </div>
+
+            
         </header>
 
         <section id="heatmap-container" class="glass-panel" style="padding: 1.5rem; overflow-x: visible;">
@@ -31,22 +31,7 @@
         <section class="glass-panel">
             <table id="data-table">
                 <thead>
-                    <tr>
-                        <th data-sort="date">Date <span>↕</span></th>
-                        <th>Day</th>
-                        <th data-sort="direction">Dir <span>↕</span></th>
-                        <th data-sort="capitalUsed">Capital <span>↕</span></th>
-                        <th data-sort="entryTime">Entry <span>↕</span></th>
-                        <th data-sort="exitTime">Exit <span>↕</span></th>
-                        <th data-sort="pnl">My P/L <span>↕</span></th>
-                        <th data-sort="rating.plan">Plan <span>-</span></th>
-                        <th data-sort="rating.entry">Entry <span>-</span></th>
-                        <th data-sort="rating.exit">Exit <span>-</span></th>
-                        <th data-sort="guriji.direction">G. Dir <span>↕</span></th>
-                        <th data-sort="guriji.entryTime">G. Entry <span>↕</span></th>
-                        <th data-sort="guriji.exitTime">G. Exit <span>↕</span></th>
-                        <th data-sort="guriji.pnl">G. P/L <span>↕</span></th>
-                    </tr>
+                
                 </thead>
                 <tbody id="table-body"></tbody>
             </table>
