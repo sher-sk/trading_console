@@ -18,8 +18,8 @@
                 <button id="import-btn" class="action-btn">Import JSON</button>
             </div>
             <div class="summary-stats">
-                <div class="stat-box">My Total P/L: <span id="my-total-pnl">0.00</span></div>
-                <div class="stat-box">Guriji P/L: <span id="guriji-total-pnl">0.00</span></div>
+                <div class="stat-box"  onClick="renderHeatmap()">My Total P/L: <span id="my-total-pnl">0.00</span></div>
+                <div class="stat-box" onClick="renderHeatmap('guruji')">Guriji P/L: <span id="guriji-total-pnl">0.00</span></div>
             </div>
 
             
@@ -31,7 +31,7 @@
         <section class="glass-panel">
             <table id="data-table">
                 <thead>
-                
+                 
                 </thead>
                 <tbody id="table-body"></tbody>
             </table>
