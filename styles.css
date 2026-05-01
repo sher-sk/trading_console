@@ -53,7 +53,7 @@ h1 { font-size: 1.4rem; margin: 0; background: var(--header-grad); -webkit-backg
 .icon-btn:hover { transform: scale(1.1); }
 
 .summary-stats { display: flex; gap: 1.5rem; font-weight: 600; }
-.stat-box { background: rgba(128,128,128,0.1); padding: 0.5rem 1rem; border-radius: 8px; border: 1px solid var(--glass-border); }
+.stat-box {cursor:pointer; background: rgba(128,128,128,0.1); padding: 0.5rem 1rem; border-radius: 8px; border: 1px solid var(--glass-border); }
 
 .controls { display: flex; align-items: center; gap: 1rem; }
 .action-btn { background: var(--accent); color: #fff; border: none; padding: 0.5rem 1rem; border-radius: 6px; cursor: pointer; font-weight: 600; }
