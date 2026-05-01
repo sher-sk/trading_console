@@ -192,7 +192,6 @@ function renderHeatmap(a) {
     let html = `<div class="heatmap-wrapper">`;
 
     if (a==="guruji") {
-        console.log("logging",a);
         tableData.forEach(r => {
             if (!r.date || typeof r.guriji.pnl !== 'number') return;
             pnlMap[r.date] = r.guriji.pnl;
@@ -347,6 +346,7 @@ function updateView() {
 buildThead();
 fetchData();
 async function fetchData() {
+    console.log("fetchData");
     try {
         const response = await fetch('1.json');
         if (!response.ok) throw new Error('Network response was not ok');
