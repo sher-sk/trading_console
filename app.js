@@ -345,7 +345,7 @@ function updateView() {
 
 // Initial header build (no data yet)
 buildThead();
-// fetchData();
+fetchData();
 async function fetchData() {
     try {
         const response = await fetch('1.json');
