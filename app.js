@@ -174,7 +174,7 @@ function buildThead() {
 }
 
 // ── Heatmap ───────────────────────────────────────────────────────────────────
-function renderHeatmap() {
+function renderHeatmap(a) {
     if (!tableData.length) { heatmapContainer.innerHTML = ''; return; }
 
     let dates = tableData.map(d => new Date(d.date).getTime()).filter(x => !isNaN(x));
@@ -188,60 +188,120 @@ function renderHeatmap() {
 
     const pnlMap = {};
     let maxProfit = 0, maxLoss = 0;
-    tableData.forEach(r => {
-        if (!r.date || typeof r.pnl !== 'number') return;
-        pnlMap[r.date] = r.pnl;
-        if (r.pnl > maxProfit) maxProfit = r.pnl;
-        if (r.pnl < maxLoss)   maxLoss   = r.pnl;
-    });
 
     let html = `<div class="heatmap-wrapper">`;
 
-    while (current <= endMonth) {
-        const year  = current.getUTCFullYear();
-        const month = current.getUTCMonth();
-        const monthLabel = current.toLocaleString('default', { month: 'short', timeZone: 'UTC' }) + ' ' + year.toString().slice(2);
+    if (a==="guruji") {
+        console.log("logging",a);
+        tableData.forEach(r => {
+            if (!r.date || typeof r.guriji.pnl !== 'number') return;
+            pnlMap[r.date] = r.guriji.pnl;
+            if (r.guriji.pnl > maxProfit) maxProfit = r.guriji.pnl;
+            if (r.guriji.pnl < maxLoss)   maxLoss   = r.guriji.pnl;
+        });
 
-        let monthPnl = 0, tradeCount = 0, cellsHtml = '';
-        let firstDay = new Date(Date.UTC(year, month, 1));
-        let cursor   = new Date(firstDay);
-        const dow    = cursor.getUTCDay();
-        cursor.setUTCDate(cursor.getUTCDate() + (dow === 0 ? -6 : 1 - dow));
 
-        while (true) {
-            for (let i = 0; i < 5; i++) {
-                if (cursor.getUTCMonth() === month) {
-                    const dStr = cursor.toISOString().split('T')[0];
-                    const pnl  = pnlMap[dStr];
-                    let bgStyle = '';
-                    if (pnl !== undefined) {
-                        monthPnl += pnl; tradeCount++;
-                        if      (pnl > 0) bgStyle = `background: rgba(16, 185, 129, ${Math.max(0.3, pnl / (maxProfit || 1))});`;
-                        else if (pnl < 0) bgStyle = `background: rgba(239, 68, 68, ${Math.max(0.3, pnl / (maxLoss || -1))});`;
-                        else              bgStyle = `background: var(--heatmap-empty);`;
+        while (current <= endMonth) {
+            const year  = current.getUTCFullYear();
+            const month = current.getUTCMonth();
+            const monthLabel = current.toLocaleString('default', { month: 'short', timeZone: 'UTC' }) + ' ' + year.toString().slice(2);
+
+            let monthPnl = 0, tradeCount = 0, cellsHtml = '';
+            let firstDay = new Date(Date.UTC(year, month, 1));
+            let cursor   = new Date(firstDay);
+            const dow    = cursor.getUTCDay();
+            cursor.setUTCDate(cursor.getUTCDate() + (dow === 0 ? -6 : 1 - dow));
+
+            while (true) {
+                for (let i = 0; i < 5; i++) {
+                    if (cursor.getUTCMonth() === month) {
+                        const dStr = cursor.toISOString().split('T')[0];
+                        const pnl  = pnlMap[dStr];
+                        let bgStyle = '';
+                        if (pnl !== undefined) {
+                            monthPnl += pnl; tradeCount++;
+                            if      (pnl > 0) bgStyle = `background: rgba(16, 185, 129, ${Math.max(0.3, pnl / (maxProfit || 1))});`;
+                            else if (pnl < 0) bgStyle = `background: rgba(239, 68, 68, ${Math.max(0.3, pnl / (maxLoss || -1))});`;
+                            else              bgStyle = `background: var(--heatmap-empty);`;
+                        }
+                        const tooltip = pnl !== undefined ? `${dStr} | PnL: ${formatInr(pnl)}` : `${dStr} | No Trades`;
+                        cellsHtml += `<div class="heatmap-cell" style="${bgStyle}" data-tooltip="${tooltip}"></div>`;
+                    } else {
+                        cellsHtml += `<div class="heatmap-cell empty"></div>`;
                     }
-                    const tooltip = pnl !== undefined ? `${dStr} | PnL: ${formatInr(pnl)}` : `${dStr} | No Trades`;
-                    cellsHtml += `<div class="heatmap-cell" style="${bgStyle}" data-tooltip="${tooltip}"></div>`;
-                } else {
-                    cellsHtml += `<div class="heatmap-cell empty"></div>`;
+                    cursor.setUTCDate(cursor.getUTCDate() + 1);
                 }
-                cursor.setUTCDate(cursor.getUTCDate() + 1);
+                cursor.setUTCDate(cursor.getUTCDate() + 2);
+                if (cursor.getUTCMonth() !== month && cursor > firstDay) break;
             }
-            cursor.setUTCDate(cursor.getUTCDate() + 2);
-            if (cursor.getUTCMonth() !== month && cursor > firstDay) break;
+
+            const divClass = monthPnl > 0 ? 'positive' : monthPnl < 0 ? 'negative' : '';
+            html += `
+                <div class="month-block">
+                    <div class="month-header">${monthLabel} (${tradeCount} trades)</div>
+                    <div class="month-divider ${divClass}"></div>
+                    <div class="month-grid">${cellsHtml}</div>
+                    <div class="month-footer ${divClass}">${formatInr(monthPnl)}</div>
+                </div>`;
+
+            current.setUTCMonth(current.getUTCMonth() + 1);
         }
+    }else{
+        tableData.forEach(r => {
+            if (!r.date || typeof r.pnl !== 'number') return;
+            pnlMap[r.date] = r.pnl;
+            if (r.pnl > maxProfit) maxProfit = r.pnl;
+            if (r.pnl < maxLoss)   maxLoss   = r.pnl;
+        });
 
-        const divClass = monthPnl > 0 ? 'positive' : monthPnl < 0 ? 'negative' : '';
-        html += `
-            <div class="month-block">
-                <div class="month-header">${monthLabel} (${tradeCount} trades)</div>
-                <div class="month-divider ${divClass}"></div>
-                <div class="month-grid">${cellsHtml}</div>
-                <div class="month-footer ${divClass}">${formatInr(monthPnl)}</div>
-            </div>`;
 
-        current.setUTCMonth(current.getUTCMonth() + 1);
+        while (current <= endMonth) {
+            const year  = current.getUTCFullYear();
+            const month = current.getUTCMonth();
+            const monthLabel = current.toLocaleString('default', { month: 'short', timeZone: 'UTC' }) + ' ' + year.toString().slice(2);
+
+            let monthPnl = 0, tradeCount = 0, cellsHtml = '';
+            let firstDay = new Date(Date.UTC(year, month, 1));
+            let cursor   = new Date(firstDay);
+            const dow    = cursor.getUTCDay();
+            cursor.setUTCDate(cursor.getUTCDate() + (dow === 0 ? -6 : 1 - dow));
+
+            while (true) {
+                for (let i = 0; i < 5; i++) {
+                    if (cursor.getUTCMonth() === month) {
+                        const dStr = cursor.toISOString().split('T')[0];
+                        const pnl  = pnlMap[dStr];
+                        let bgStyle = '';
+                        if (pnl !== undefined) {
+                            monthPnl += pnl; tradeCount++;
+                            if      (pnl > 0) bgStyle = `background: rgba(16, 185, 129, ${Math.max(0.3, pnl / (maxProfit || 1))});`;
+                            else if (pnl < 0) bgStyle = `background: rgba(239, 68, 68, ${Math.max(0.3, pnl / (maxLoss || -1))});`;
+                            else              bgStyle = `background: var(--heatmap-empty);`;
+                        }
+                        const tooltip = pnl !== undefined ? `${dStr} | PnL: ${formatInr(pnl)}` : `${dStr} | No Trades`;
+                        cellsHtml += `<div class="heatmap-cell" style="${bgStyle}" data-tooltip="${tooltip}"></div>`;
+                    } else {
+                        cellsHtml += `<div class="heatmap-cell empty"></div>`;
+                    }
+                    cursor.setUTCDate(cursor.getUTCDate() + 1);
+                }
+                cursor.setUTCDate(cursor.getUTCDate() + 2);
+                if (cursor.getUTCMonth() !== month && cursor > firstDay) break;
+            }
+
+            const divClass = monthPnl > 0 ? 'positive' : monthPnl < 0 ? 'negative' : '';
+            html += `
+                <div class="month-block">
+                    <div class="month-header">${monthLabel} (${tradeCount} trades)</div>
+                    <div class="month-divider ${divClass}"></div>
+                    <div class="month-grid">${cellsHtml}</div>
+                    <div class="month-footer ${divClass}">${formatInr(monthPnl)}</div>
+                </div>`;
+
+            current.setUTCMonth(current.getUTCMonth() + 1);
+        }
     }
+    
 
     heatmapContainer.innerHTML = html + `</div>`;
 }
@@ -285,7 +345,7 @@ function updateView() {
 
 // Initial header build (no data yet)
 buildThead();
-fetchData();
+// fetchData();
 async function fetchData() {
     try {
         const response = await fetch('1.json');
