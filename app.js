@@ -348,7 +348,7 @@ fetchData();
 async function fetchData() {
     console.log("fetchData");
     try {
-        const response = await fetch('2.json');
+        const response = await fetch('3.json');
         if (!response.ok) throw new Error('Network response was not ok');
         
         const data = await response.json();
