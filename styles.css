@@ -114,19 +114,11 @@ tr:hover td { background-color: rgba(128, 128, 128, 0.1); }
 .direction-ce { background: var(--dir-ce-bg); color: var(--positive); }
 .direction-pe { background: var(--dir-pe-bg); color: var(--negative); }
 
-.heatmap-wrapper { display: flex; gap: 1.5rem; overflow-x: visible; padding-bottom: 0.5rem; justify-content: flex-end;}
+.heatmap-wrapper { display: flex; gap: 1.5rem; padding-bottom: 0.5rem; justify-content: flex-end; width: max-content; min-width: 100%; }
 
-@media (max-width: 768px) {
-    #heatmap-container {
-        overflow-x: auto !important;
-        -webkit-overflow-scrolling: touch;
-    }
-    .heatmap-wrapper {
-        overflow-x: visible;
-        justify-content: flex-start;
-        width: max-content;
-        min-width: 100%;
-    }
+#heatmap-container {
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch;
 }
 .month-block {margin-left:6px;  display: flex; flex-direction: column; min-width: 140px; border-right: 1px dashed var(--glass-border); padding-right: 1.5rem; }
 .month-block:last-child { border-right: none; padding-right: 0; }
