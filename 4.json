@@ -1,5 +1,76 @@
 [
   {
+    "date": "2026-07-07",
+    "direction": "PE",
+    "capitalUsed": 194690,
+    "entryTime": "09:23:56",
+    "exitTime": "13:06:19",
+    "pnl": 10215,
+    "entryIndex": {
+      "NIFTY": 24454,
+      "SENSEX": 78358,
+      "BANK": 58509,
+      "VIX": 11.85
+    },
+    "exitIndex": {
+      "NIFTY": 24455,
+      "SENSEX": 78388,
+      "BANK": 58305,
+      "VIX": 11.69
+    },
+    "strikes": [
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 58600,
+        "entry": 729,
+        "exit": 787,
+        "points": 58,
+        "qty": 120,
+        "daysLeft": 21
+      },
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 58500,
+        "entry": 681,
+        "exit": 739,
+        "points": 58,
+        "qty": 120,
+        "daysLeft": 21
+      },
+      {
+        "symbol": "SENSEX",
+        "strike": 78500,
+        "entry": 375,
+        "exit": 336,
+        "points": -39,
+        "qty": 60,
+        "daysLeft": 2
+      },
+      {
+        "symbol": "NIFTY",
+        "strike": 24450,
+        "entry": 46,
+        "exit": 25,
+        "points": -21,
+        "qty": 65,
+        "daysLeft": 0
+      }
+    ],
+    "guriji": {
+      "direction": "PE",
+      "entryTime": "09:19",
+      "exitTime": "11:17",
+      "pnl": -1.14
+    },
+    "rating": {
+      "potentialPnl": 30000,
+      "plan": 3,
+      "entry": 3,
+      "exit": 2
+    },
+    "notes": "guruji changed the ratio of quantity - in sensex from 840 to 900 and in nifty from 1300 to 1365"
+  },
+  {
     "date": "2026-07-06",
     "direction": "CE",
     "capitalUsed": 268300,
