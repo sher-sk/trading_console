@@ -26,7 +26,7 @@
         "exit": 944,
         "points": -27,
         "qty": 120,
-        "daysLeft": 0
+        "daysLeft": 27
       },
       {
         "symbol": "BANKNIFTY",
@@ -35,7 +35,7 @@
         "exit": 1005,
         "points": -21,
         "qty": 120,
-        "daysLeft": 0
+        "daysLeft": 27
       },
       {
         "symbol": "SENSEX",
@@ -44,7 +44,7 @@
         "exit": 610,
         "points": 158,
         "qty": 60,
-        "daysLeft": 0
+        "daysLeft": 6
       },
       {
         "symbol": "NIFTY",
@@ -53,7 +53,7 @@
         "exit": 131,
         "points": 31,
         "qty": 65,
-        "daysLeft": 0
+        "daysLeft": 4
       }
     ],
     "guriji": {
