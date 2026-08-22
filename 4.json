@@ -1,5 +1,76 @@
 [
   {
+    "date": "2026-08-21",
+    "direction": "CE",
+    "capitalUsed": 143895,
+    "entryTime": "09:43:33",
+    "exitTime": "09:48:51",
+    "pnl": 6555,
+    "entryIndex": {
+      "NIFTY": 24238,
+      "SENSEX": 77567,
+      "BANK": 57688,
+      "VIX": "11.17"
+    },
+    "exitIndex": {
+      "NIFTY": 24241,
+      "SENSEX": 77582,
+      "BANK": 57715,
+      "VIX": "11.16"
+    },
+    "strikes": [
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 57500,
+        "entry": 403,
+        "exit": 422,
+        "points": 19,
+        "qty": 120,
+        "daysLeft": 4
+      },
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 57400,
+        "entry": 470,
+        "exit": 494,
+        "points": 24,
+        "qty": 120,
+        "daysLeft": 4
+      },
+      {
+        "symbol": "SENSEX",
+        "strike": 77500,
+        "entry": 506,
+        "exit": 526,
+        "points": 20,
+        "qty": 60,
+        "daysLeft": 6
+      },
+      {
+        "symbol": "NIFTY",
+        "strike": 24200,
+        "entry": 135,
+        "exit": 138,
+        "points": 3,
+        "qty": 65,
+        "daysLeft": 4
+      }
+    ],
+    "guriji": {
+      "direction": "PE",
+      "exitTime": "10:45",
+      "pnl": -2.29,
+      "entryTime": "09:16"
+    },
+    "rating": {
+      "plan": 3,
+      "entry": 2,
+      "exit": 2,
+      "potentialPnl": 47000
+    },
+    "notes": "guruji changed the ratio of quantity - in sensex from 840 to 900 and in nifty from 1300 to 1430"
+  },
+  {
     "date": "2026-08-20",
     "direction": "CE",
     "capitalUsed": 109415,
@@ -68,7 +139,7 @@
       "exit": 2,
       "potentialPnl": 32000
     },
-    "notes": "guruji changed the ratio of quantity - in sensex from 840 to 900 and in nifty from 1300 to 1430guruji changed the ratio of quantity - in sensex from 840 to 900 and in nifty from 1300 to 1430"
+    "notes": "guruji changed the ratio of quantity - in sensex from 840 to 900 and in nifty from 1300 to 1430"
   },
   {
     "date": "2026-08-19",
