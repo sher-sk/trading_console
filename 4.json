@@ -1,5 +1,224 @@
 [
   {
+    "date": "2026-09-02",
+    "direction": "CE",
+    "capitalUsed": 243465,
+    "entryTime": "09:15:37",
+    "exitTime": "09:18:32",
+    "pnl": 15030,
+    "entryIndex": {
+      "oppCapital": 184490,
+      "NIFTY": 23822,
+      "SENSEX": 76254,
+      "BANK": 56884,
+      "VIX": "11.76"
+    },
+    "exitIndex": {
+      "oppCapital": 175100,
+      "NIFTY": 23835,
+      "SENSEX": 76266,
+      "BANK": 56958,
+      "VIX": "11.86"
+    },
+    "strikes": [
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 57000,
+        "entry": 895,
+        "exit": 953,
+        "points": 58,
+        "qty": 120,
+        "daysLeft": 27
+      },
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 56900,
+        "entry": 955,
+        "exit": 1015,
+        "points": 60,
+        "qty": 120,
+        "daysLeft": 27
+      },
+      {
+        "symbol": "SENSEX",
+        "strike": 76500,
+        "entry": 192,
+        "exit": 200,
+        "points": 8,
+        "qty": 60,
+        "daysLeft": 1
+      },
+      {
+        "symbol": "NIFTY",
+        "strike": 23850,
+        "entry": 153,
+        "exit": 159,
+        "points": 6,
+        "qty": 65,
+        "daysLeft": 6
+      }
+    ],
+    "guriji": {
+      "direction": "CE",
+      "entryTime": "09:19",
+      "pnl": -2.67,
+      "exitTime": "10:20"
+    },
+    "rating": {
+      "plan": 3,
+      "entry": 3,
+      "exit": 2,
+      "potentialPnl": 50000
+    },
+    "notes": "guruji changed the ratio of quantity - in sensex from 840 to 900 and in nifty from 1300 to 1430"
+  },
+  {
+    "date": "2026-09-01",
+    "direction": "CE",
+    "capitalUsed": 248015,
+    "entryTime": "09:59:23",
+    "exitTime": "10:54:07",
+    "pnl": 22200,
+    "entryIndex": {
+      "oppCapital": 155955,
+      "NIFTY": 24015,
+      "SENSEX": 76797,
+      "BANK": 57349,
+      "VIX": "11.26"
+    },
+    "exitIndex": {
+      "oppCapital": 133910,
+      "NIFTY": 24091,
+      "SENSEX": 77062,
+      "BANK": 57530,
+      "VIX": "11.06"
+    },
+    "strikes": [
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 57400,
+        "entry": 905,
+        "exit": 956,
+        "points": 51,
+        "qty": 120,
+        "daysLeft": 28
+      },
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 57300,
+        "entry": 962,
+        "exit": 1015,
+        "points": 53,
+        "qty": 120,
+        "daysLeft": 28
+      },
+      {
+        "symbol": "SENSEX",
+        "strike": 76800,
+        "entry": 340,
+        "exit": 450,
+        "points": 110,
+        "qty": 60,
+        "daysLeft": 2
+      },
+      {
+        "symbol": "NIFTY",
+        "strike": 24000,
+        "entry": 55,
+        "exit": 103,
+        "points": 48,
+        "qty": 65,
+        "daysLeft": 0
+      }
+    ],
+    "guriji": {
+      "direction": "CE",
+      "entryTime": "09:18",
+      "pnl": 3.35,
+      "exitTime": "11:13"
+    },
+    "rating": {
+      "plan": 3,
+      "entry": 3,
+      "exit": 2,
+      "potentialPnl": 60000
+    },
+    "notes": "guruji changed the ratio of quantity - in sensex from 840 to 900 and in nifty from 1300 to 1430"
+  },
+  {
+    "date": "2026-08-31",
+    "direction": "PE",
+    "capitalUsed": 167890,
+    "entryTime": "09:18:09",
+    "exitTime": "09:54:42",
+    "pnl": 4915,
+    "entryIndex": {
+      "oppCapital": 251755,
+      "NIFTY": 24054,
+      "SENSEX": 76986,
+      "BANK": 57395,
+      "VIX": "11.20"
+    },
+    "exitIndex": {
+      "oppCapital": 245640,
+      "NIFTY": 24025,
+      "SENSEX": 76890,
+      "BANK": 57334,
+      "VIX": "11.20"
+    },
+    "strikes": [
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 57400,
+        "entry": 622,
+        "exit": 626,
+        "points": 4,
+        "qty": 120,
+        "daysLeft": 29
+      },
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 57300,
+        "entry": 580,
+        "exit": 586,
+        "points": 6,
+        "qty": 120,
+        "daysLeft": 29
+      },
+      {
+        "symbol": "SENSEX",
+        "strike": 77000,
+        "entry": 327,
+        "exit": 377,
+        "points": 50,
+        "qty": 60,
+        "daysLeft": 3
+      },
+      {
+        "symbol": "NIFTY",
+        "strike": 24050,
+        "entry": 62,
+        "exit": 73,
+        "points": 11,
+        "qty": 65,
+        "daysLeft": 1
+      }
+    ],
+    "guriji": {
+      "direction": "PE",
+      "entryTime": "09:20",
+      "pnl": 2.37,
+      "exitTime": "10:17"
+    },
+    "rating": {
+      "plan": 3,
+      "entry": 1,
+      "exit": 1,
+      "potentialPnl": 10000
+    },
+    "notes": "guruji changed the ratio of quantity - in sensex from 840 to 900 and in nifty from 1300 to 1365"
+  },
+  {
     "date": "2026-08-28",
     "direction": "PE",
     "capitalUsed": 149050,
@@ -28,7 +247,7 @@
         "exit": 618,
         "points": 56,
         "qty": 120,
-        "daysLeft": 0
+        "daysLeft": 32
       },
       {
         "symbol": "BANKNIFTY",
@@ -37,7 +256,7 @@
         "exit": 579,
         "points": 59,
         "qty": 120,
-        "daysLeft": 0
+        "daysLeft": 32
       },
       {
         "symbol": "SENSEX",
@@ -46,7 +265,7 @@
         "exit": 349,
         "points": 83,
         "qty": 60,
-        "daysLeft": 0
+        "daysLeft": 6
       },
       {
         "symbol": "NIFTY",
@@ -55,7 +274,7 @@
         "exit": 75,
         "points": 25,
         "qty": 65,
-        "daysLeft": 0
+        "daysLeft": 4
       }
     ],
     "guriji": {
@@ -132,7 +351,7 @@
       }
     ],
     "guriji": {
-      "direction": "CE",
+      "direction": "PE",
       "entryTime": "09:15",
       "exitTime": "09:32",
       "pnl": 3.15
@@ -153,12 +372,14 @@
     "exitTime": "15:35:43",
     "pnl": 1640,
     "entryIndex": {
+      "oppCapital": 280500,
       "NIFTY": 24321,
       "SENSEX": 77844,
       "BANK": 57804,
       "VIX": "10.47"
     },
     "exitIndex": {
+      "oppCapital": 278150,
       "NIFTY": 24207,
       "SENSEX": 77472,
       "BANK": 57783,
@@ -224,12 +445,14 @@
     "exitTime": "09:27:57",
     "pnl": -35740,
     "entryIndex": {
+      "oppCapital": 42960,
       "NIFTY": 24137,
       "SENSEX": 77182,
       "BANK": 57274,
       "VIX": "11.05"
     },
     "exitIndex": {
+      "oppCapital": 91290,
       "NIFTY": 24188,
       "SENSEX": 77349,
       "BANK": 57565,
@@ -295,12 +518,14 @@
     "exitTime": "09:34:56",
     "pnl": -8640,
     "entryIndex": {
+      "oppCapital": 56840,
       "NIFTY": 24293,
       "SENSEX": 77703,
       "BANK": 57845,
       "VIX": "10.97"
     },
     "exitIndex": {
+      "oppCapital": 51485,
       "NIFTY": 24274,
       "SENSEX": 77654,
       "BANK": 57774,
@@ -366,12 +591,14 @@
     "exitTime": "09:48:51",
     "pnl": 6555,
     "entryIndex": {
+      "oppCapital": 58105,
       "NIFTY": 24238,
       "SENSEX": 77567,
       "BANK": 57688,
       "VIX": "11.17"
     },
     "exitIndex": {
+      "oppCapital": 53835,
       "NIFTY": 24241,
       "SENSEX": 77582,
       "BANK": 57715,
@@ -437,12 +664,14 @@
     "exitTime": "10:11:02",
     "pnl": 11460,
     "entryIndex": {
+      "oppCapital": 67715,
       "NIFTY": 24191,
       "SENSEX": 77398,
       "BANK": 57578,
       "VIX": "10.91"
     },
     "exitIndex": {
+      "oppCapital": 56130,
       "NIFTY": 24214,
       "SENSEX": 77463,
       "BANK": 57653,
@@ -508,12 +737,14 @@
     "exitTime": "09:30:47",
     "pnl": 5485,
     "entryIndex": {
+      "oppCapital": 116610,
       "NIFTY": 24118,
       "SENSEX": 77138,
       "BANK": 57188,
       "VIX": "11.62"
     },
     "exitIndex": {
+      "oppCapital": 105040,
       "NIFTY": 24090,
       "SENSEX": 77055,
       "BANK": 57105,
@@ -579,12 +810,14 @@
     "exitTime": "09:58:24",
     "pnl": 125,
     "entryIndex": {
+      "oppCapital": 118235,
       "NIFTY": 24231,
       "SENSEX": 77459,
       "BANK": 57359,
       "VIX": "11.44"
     },
     "exitIndex": {
+      "oppCapital": 114070,
       "NIFTY": 24226,
       "SENSEX": 77422,
       "BANK": 57330,
@@ -650,12 +883,14 @@
     "exitTime": "10:20:15",
     "pnl": 8185,
     "entryIndex": {
+      "oppCapital": 128585,
       "NIFTY": 24295,
       "SENSEX": 77693,
       "BANK": 57253,
       "VIX": "11.64"
     },
     "exitIndex": {
+      "oppCapital": 112375,
       "NIFTY": 24262,
       "SENSEX": 77586,
       "BANK": 57181,
@@ -721,12 +956,14 @@
     "exitTime": "10:31:19",
     "pnl": 2645,
     "entryIndex": {
+      "oppCapital": 175655,
       "NIFTY": 24333,
       "SENSEX": 77818,
       "BANK": 57550,
       "VIX": "11.49"
     },
     "exitIndex": {
+      "oppCapital": 164270,
       "NIFTY": 24315,
       "SENSEX": 77731,
       "BANK": 57493,
@@ -792,12 +1029,14 @@
     "exitTime": "09:27:56",
     "pnl": 22440,
     "entryIndex": {
+      "oppCapital": 157735,
       "NIFTY": 24350,
       "SENSEX": 77831,
       "BANK": 57683,
       "VIX": "11.58"
     },
     "exitIndex": {
+      "oppCapital": 133600,
       "NIFTY": 24332,
       "SENSEX": 77757,
       "BANK": 57565,
@@ -863,12 +1102,14 @@
     "exitTime": "09:24:08",
     "pnl": 19925,
     "entryIndex": {
+      "oppCapital": 151745,
       "NIFTY": 24403,
       "SENSEX": 77918,
       "BANK": 57299,
       "VIX": "11.97"
     },
     "exitIndex": {
+      "oppCapital": 131780,
       "NIFTY": 24419,
       "SENSEX": 77972,
       "BANK": 57483,
@@ -934,12 +1175,14 @@
     "exitTime": "15:31:40",
     "pnl": -14925,
     "entryIndex": {
+      "oppCapital": 183365,
       "NIFTY": 24501,
       "SENSEX": 78236,
       "BANK": 57327,
       "VIX": "12.36"
     },
     "exitIndex": {
+      "oppCapital": 162820,
       "NIFTY": 24471,
       "SENSEX": 78154,
       "BANK": 57446,
@@ -1005,12 +1248,14 @@
     "exitTime": "10:23:20",
     "pnl": -11965,
     "entryIndex": {
+      "oppCapital": 221710,
       "NIFTY": 24544,
       "SENSEX": 78427,
       "BANK": 57633,
       "VIX": "12.64"
     },
     "exitIndex": {
+      "oppCapital": 231940,
       "NIFTY": 24582,
       "SENSEX": 78565,
       "BANK": 57680,
@@ -1076,12 +1321,14 @@
     "exitTime": "10:28:33",
     "pnl": -9240,
     "entryIndex": {
+      "oppCapital": 170880,
       "NIFTY": 24593,
       "SENSEX": 78640,
       "BANK": 57868,
       "VIX": "12.37"
     },
     "exitIndex": {
+      "oppCapital": 178915,
       "NIFTY": 24570,
       "SENSEX": 78556,
       "BANK": 57861,
@@ -1147,12 +1394,14 @@
     "exitTime": "12:05:57",
     "pnl": 18360,
     "entryIndex": {
+      "oppCapital": 158700,
       "NIFTY": 24639,
       "SENSEX": 78764,
       "BANK": 57798,
       "VIX": "12.11"
     },
     "exitIndex": {
+      "oppCapital": 153310,
       "NIFTY": 24653,
       "SENSEX": 78836,
       "BANK": 57949,
@@ -1218,12 +1467,14 @@
     "exitTime": "10:28:39",
     "pnl": -21685,
     "entryIndex": {
+      "oppCapital": 149920,
       "NIFTY": 24638,
       "SENSEX": 78895,
       "BANK": 57875,
       "VIX": "11.68"
     },
     "exitIndex": {
+      "oppCapital": 174335,
       "NIFTY": 24583,
       "SENSEX": 78671,
       "BANK": 57712,
@@ -1289,12 +1540,14 @@
     "exitTime": "10:32:28",
     "pnl": -18160,
     "entryIndex": {
+      "oppCapital": 156335,
       "NIFTY": 24624,
       "SENSEX": 78830,
       "BANK": 57821,
       "VIX": "11.85"
     },
     "exitIndex": {
+      "oppCapital": 172195,
       "NIFTY": 24583,
       "SENSEX": 78677,
       "BANK": 57740,
@@ -1360,12 +1613,14 @@
     "exitTime": "09:41:40",
     "pnl": 20825,
     "entryIndex": {
+      "oppCapital": 184160,
       "NIFTY": 24544,
       "SENSEX": 78621,
       "BANK": 57540,
       "VIX": "11.85"
     },
     "exitIndex": {
+      "oppCapital": 162580,
       "NIFTY": 24557,
       "SENSEX": 78637,
       "BANK": 57711,
@@ -1431,12 +1686,14 @@
     "exitTime": "13:08:52",
     "pnl": 5735,
     "entryIndex": {
+      "oppCapital": 179150,
       "NIFTY": 24350,
       "SENSEX": 77976,
       "BANK": 57334,
       "VIX": "11.88"
     },
     "exitIndex": {
+      "oppCapital": 163775,
       "NIFTY": 24424,
       "SENSEX": 78259,
       "BANK": 57349,
@@ -1502,12 +1759,14 @@
     "exitTime": "10:30:10",
     "pnl": 25125,
     "entryIndex": {
+      "oppCapital": 223325,
       "NIFTY": 24274,
       "SENSEX": 77702,
       "BANK": 56939,
       "VIX": "12.21"
     },
     "exitIndex": {
+      "oppCapital": 194800,
       "NIFTY": 24228,
       "SENSEX": 77547,
       "BANK": 56779,
@@ -1573,12 +1832,14 @@
     "exitTime": "12:06:16",
     "pnl": 16055,
     "entryIndex": {
+      "oppCapital": 218590,
       "NIFTY": 24173,
       "SENSEX": 77422,
       "BANK": 56991,
       "VIX": "12.38"
     },
     "exitIndex": {
+      "oppCapital": 184910,
       "NIFTY": 24233,
       "SENSEX": 77605,
       "BANK": 57204,
@@ -1644,12 +1905,14 @@
     "exitTime": "10:06:00",
     "pnl": -37105,
     "entryIndex": {
+      "oppCapital": 36225,
       "NIFTY": 24009,
       "SENSEX": 76841,
       "BANK": 57019,
       "VIX": "12.80"
     },
     "exitIndex": {
+      "oppCapital": 51750,
       "NIFTY": 23970,
       "SENSEX": 76733,
       "BANK": 56841,
@@ -1715,12 +1978,14 @@
     "exitTime": "10:04:26",
     "pnl": 23550,
     "entryIndex": {
+      "oppCapital": 99785,
       "NIFTY": 23910,
       "SENSEX": 76565,
       "BANK": 57270,
       "VIX": "13.76"
     },
     "exitIndex": {
+      "oppCapital": 72215,
       "NIFTY": 23919,
       "SENSEX": 76602,
       "BANK": 57054,
@@ -1786,12 +2051,14 @@
     "exitTime": "11:03:35",
     "pnl": -21855,
     "entryIndex": {
+      "oppCapital": 128575,
       "NIFTY": 23702,
       "SENSEX": 75801,
       "BANK": 56214,
       "VIX": "14.30"
     },
     "exitIndex": {
+      "oppCapital": 149235,
       "NIFTY": 23628,
       "SENSEX": 75554,
       "BANK": 56116,
@@ -1857,12 +2124,14 @@
     "exitTime": "10:03:51",
     "pnl": 16575,
     "entryIndex": {
+      "oppCapital": 104995,
       "NIFTY": 23912,
       "SENSEX": 76422,
       "BANK": 56765,
       "VIX": "13.35"
     },
     "exitIndex": {
+      "oppCapital": 82820,
       "NIFTY": 23960,
       "SENSEX": 76620,
       "BANK": 56857,
@@ -1928,12 +2197,14 @@
     "exitTime": "09:29:31",
     "pnl": 16800,
     "entryIndex": {
+      "oppCapital": 104700,
       "NIFTY": 24090,
       "SENSEX": 77071,
       "BANK": 57473,
       "VIX": "12.94"
     },
     "exitIndex": {
+      "oppCapital": 90790,
       "NIFTY": 24051,
       "SENSEX": 76979,
       "BANK": 57349,
@@ -1999,12 +2270,14 @@
     "exitTime": "11:46:00",
     "pnl": 16040,
     "entryIndex": {
+      "oppCapital": 185760,
       "NIFTY": 24226,
       "SENSEX": 77652,
       "BANK": 57934,
       "VIX": "13.03"
     },
     "exitIndex": {
+      "oppCapital": 144935,
       "NIFTY": 24159,
       "SENSEX": 77410,
       "BANK": 57843,
@@ -2070,12 +2343,14 @@
     "exitTime": "09:30:34",
     "pnl": -27040,
     "entryIndex": {
+      "oppCapital": 160755,
       "NIFTY": 24212,
       "SENSEX": 77664,
       "BANK": 57843,
       "VIX": "13.67"
     },
     "exitIndex": {
+      "oppCapital": 182835,
       "NIFTY": 24183,
       "SENSEX": 77567,
       "BANK": 57661,
@@ -2141,12 +2416,14 @@
     "exitTime": "10:18:11",
     "pnl": -35355,
     "entryIndex": {
+      "oppCapital": 227355,
       "NIFTY": 24141,
       "SENSEX": 77455,
       "BANK": 57639,
       "VIX": "13.17"
     },
     "exitIndex": {
+      "oppCapital": 284505,
       "NIFTY": 24255,
       "SENSEX": 77862,
       "BANK": 58010,
@@ -2212,12 +2489,14 @@
     "exitTime": "11:05:30",
     "pnl": 10395,
     "entryIndex": {
+      "oppCapital": 164955,
       "NIFTY": 24143,
       "SENSEX": 77387,
       "BANK": 57696,
       "VIX": "12.87"
     },
     "exitIndex": {
+      "oppCapital": 149145,
       "NIFTY": 24172,
       "SENSEX": 77533,
       "BANK": 57778,
@@ -2283,12 +2562,14 @@
     "exitTime": "12:56:06",
     "pnl": 16680,
     "entryIndex": {
+      "oppCapital": 264890,
       "NIFTY": 24162,
       "SENSEX": 77430,
       "BANK": 57934,
       "VIX": "13.27"
     },
     "exitIndex": {
+      "oppCapital": 234235,
       "NIFTY": 24090,
       "SENSEX": 77238,
       "BANK": 57802,
@@ -2354,12 +2635,14 @@
     "exitTime": "09:35:59",
     "pnl": 25515,
     "entryIndex": {
+      "oppCapital": 214055,
       "NIFTY": 24073,
       "SENSEX": 77104,
       "BANK": 57754,
       "VIX": "13.55"
     },
     "exitIndex": {
+      "oppCapital": 198425,
       "NIFTY": 24120,
       "SENSEX": 77265,
       "BANK": 57621,
@@ -2425,12 +2708,14 @@
     "exitTime": "09:39:51",
     "pnl": -20045,
     "entryIndex": {
+      "oppCapital": 224035,
       "NIFTY": 24028,
       "SENSEX": 76953,
       "BANK": 57586,
       "VIX": "13.30"
     },
     "exitIndex": {
+      "oppCapital": 243490,
       "NIFTY": 24066,
       "SENSEX": 77088,
       "BANK": 57737,
@@ -2496,12 +2781,14 @@
     "exitTime": "09:34:53",
     "pnl": 17680,
     "entryIndex": {
+      "oppCapital": 173965,
       "NIFTY": 24157,
       "SENSEX": 77421,
       "BANK": 57809,
       "VIX": "12.62"
     },
     "exitIndex": {
+      "oppCapital": 162455,
       "NIFTY": 24187,
       "SENSEX": 77469,
       "BANK": 57899,
@@ -2566,12 +2853,14 @@
     "exitTime": "09:52:21",
     "pnl": 14935,
     "entryIndex": {
+      "oppCapital": 154060,
       "NIFTY": 23995,
       "SENSEX": 76875,
       "BANK": 57208,
       "VIX": "13.76"
     },
     "exitIndex": {
+      "oppCapital": 144515,
       "NIFTY": 24050,
       "SENSEX": 77049,
       "BANK": 57283,
@@ -2636,12 +2925,14 @@
     "exitTime": "09:31:21",
     "pnl": -19015,
     "entryIndex": {
+      "oppCapital": 196065,
       "NIFTY": 24257,
       "SENSEX": 77741,
       "BANK": 57860,
       "VIX": 12.31
     },
     "exitIndex": {
+      "oppCapital": 220180,
       "NIFTY": 24224,
       "SENSEX": 77609,
       "BANK": 57726,
@@ -2707,12 +2998,14 @@
     "exitTime": "13:06:19",
     "pnl": 10215,
     "entryIndex": {
+      "oppCapital": 212325,
       "NIFTY": 24454,
       "SENSEX": 78358,
       "BANK": 58509,
       "VIX": 11.85
     },
     "exitIndex": {
+      "oppCapital": 180490,
       "NIFTY": 24455,
       "SENSEX": 78388,
       "BANK": 58305,
@@ -2778,12 +3071,14 @@
     "exitTime": "12:12:19",
     "pnl": 18100,
     "entryIndex": {
+      "oppCapital": 180095,
       "NIFTY": 24351,
       "SENSEX": 78060,
       "BANK": 58288,
       "VIX": 12
     },
     "exitIndex": {
+      "oppCapital": 158950,
       "NIFTY": 24428,
       "SENSEX": 78291,
       "BANK": 58381,
@@ -2849,12 +3144,14 @@
     "exitTime": "11:22:27",
     "pnl": -35345,
     "entryIndex": {
+      "oppCapital": 225440,
       "NIFTY": 24330,
       "SENSEX": 77981,
       "BANK": 58143,
       "VIX": 12.17
     },
     "exitIndex": {
+      "oppCapital": 248290,
       "NIFTY": 24322,
       "SENSEX": 77959,
       "BANK": 57930,
@@ -2920,12 +3217,14 @@
     "exitTime": "10:15:47",
     "pnl": 3445,
     "entryIndex": {
+      "oppCapital": 301620,
       "NIFTY": 24113,
       "SENSEX": 77286,
       "BANK": 58155,
       "VIX": 12.87
     },
     "exitIndex": {
+      "oppCapital": 289350,
       "NIFTY": 24078,
       "SENSEX": 77147,
       "BANK": 58123,
@@ -2991,12 +3290,14 @@
     "exitTime": "09:46:46",
     "pnl": 14990,
     "entryIndex": {
+      "oppCapital": 216380,
       "NIFTY": 23925,
       "SENSEX": 76673,
       "BANK": 57552,
       "VIX": 13.85
     },
     "exitIndex": {
+      "oppCapital": 201450,
       "NIFTY": 23954,
       "SENSEX": 76760,
       "BANK": 57717,
@@ -3204,12 +3505,14 @@
     "exitTime": "11:59:09",
     "pnl": -19915,
     "entryIndex": {
+      "oppCapital": 128175,
       "NIFTY": 24141,
       "SENSEX": 77399,
       "BANK": 58425,
       "VIX": 12.87
     },
     "exitIndex": {
+      "oppCapital": 165940,
       "NIFTY": 24236,
       "SENSEX": 77704,
       "BANK": 58548,
