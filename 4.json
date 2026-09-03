@@ -59,14 +59,18 @@
       }
     ],
     "guriji": {
-      "direction": "CE"
+      "direction": "CE",
+      "entryTime": "09:16",
+      "exitTime": "09:47",
+      "pnl": 2.2
     },
     "rating": {
       "plan": 3,
       "entry": 2,
       "exit": 2,
       "potentialPnl": 30000
-    }
+    },
+    "notes": "guruji changed the ratio of quantity - in sensex from 840 to 1000 and in nifty from 1300 to 1365"
   },
   {
     "date": "2026-09-02",
