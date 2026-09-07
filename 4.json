@@ -1,5 +1,74 @@
 [
   {
+    "date": "2026-09-07",
+    "direction": "PE",
+    "capitalUsed": 149865,
+    "entryTime": "09:15:58",
+    "exitTime": "09:27:01",
+    "pnl": 21235,
+    "entryIndex": {
+      "oppCapital": 224540,
+      "NIFTY": 23841,
+      "SENSEX": 76324,
+      "BANK": 57272,
+      "VIX": "10.75"
+    },
+    "exitIndex": {
+      "oppCapital": 205265,
+      "NIFTY": 23835,
+      "SENSEX": 76332,
+      "BANK": 57172,
+      "VIX": "10.92"
+    },
+    "strikes": [
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 57300,
+        "entry": 534,
+        "exit": 613,
+        "points": 79,
+        "qty": 120,
+        "daysLeft": 22
+      },
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 57200,
+        "entry": 491,
+        "exit": 572,
+        "points": 81,
+        "qty": 120,
+        "daysLeft": 22
+      },
+      {
+        "symbol": "SENSEX",
+        "strike": 76400,
+        "entry": 347,
+        "exit": 369,
+        "points": 22,
+        "qty": 60,
+        "daysLeft": 3
+      },
+      {
+        "symbol": "NIFTY",
+        "strike": 23900,
+        "entry": 93,
+        "exit": 104,
+        "points": 11,
+        "qty": 65,
+        "daysLeft": 1
+      }
+    ],
+    "guriji": {
+      "direction": "CE"
+    },
+    "rating": {
+      "plan": 3,
+      "entry": 2,
+      "exit": 2,
+      "potentialPnl": 45000
+    }
+  },
+  {
     "date": "2026-09-04",
     "direction": "CE",
     "capitalUsed": 248015,
