@@ -1,5 +1,78 @@
 [
   {
+    "date": "2026-09-10",
+    "direction": "PE",
+    "capitalUsed": 114050,
+    "entryTime": "09:19:42",
+    "exitTime": "14:36:38",
+    "pnl": 20460,
+    "entryIndex": {
+      "oppCapital": 253900,
+      "NIFTY": 23459,
+      "SENSEX": 74869,
+      "BANK": 56485,
+      "VIX": "11.71"
+    },
+    "exitIndex": {
+      "oppCapital": 212790,
+      "NIFTY": 23411,
+      "SENSEX": 74687,
+      "BANK": 56300,
+      "VIX": "11.90"
+    },
+    "strikes": [
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 56300,
+        "entry": 439,
+        "exit": 517,
+        "points": 78,
+        "qty": 120,
+        "daysLeft": 19
+      },
+      {
+        "symbol": "BANKNIFTY",
+        "strike": 56200,
+        "entry": 399,
+        "exit": 476,
+        "points": 77,
+        "qty": 120,
+        "daysLeft": 19
+      },
+      {
+        "symbol": "SENSEX",
+        "strike": 74700,
+        "entry": 123,
+        "exit": 141,
+        "points": 18,
+        "qty": 60,
+        "daysLeft": 0
+      },
+      {
+        "symbol": "NIFTY",
+        "strike": 23450,
+        "entry": 94,
+        "exit": 106,
+        "points": 12,
+        "qty": 65,
+        "daysLeft": 5
+      }
+    ],
+    "guriji": {
+      "direction": "PE",
+      "entryTime": "09:19",
+      "exitTime": "10:13",
+      "pnl": 2.2
+    },
+    "rating": {
+      "plan": 3,
+      "entry": 2,
+      "exit": 2,
+      "potentialPnl": 27000
+    },
+    "notes": "guruji changed the ratio of quantity - in sensex from 840 to 1000 and in nifty from 1300 to 1365"
+  },
+  {
     "date": "2026-09-09",
     "direction": "PE",
     "capitalUsed": 142055,
@@ -28,7 +101,7 @@
         "exit": 484,
         "points": -41,
         "qty": 120,
-        "daysLeft": 0
+        "daysLeft": 20
       },
       {
         "symbol": "BANKNIFTY",
@@ -37,7 +110,7 @@
         "exit": 447,
         "points": -39,
         "qty": 120,
-        "daysLeft": 0
+        "daysLeft": 20
       },
       {
         "symbol": "SENSEX",
@@ -46,7 +119,7 @@
         "exit": 207,
         "points": -27,
         "qty": 60,
-        "daysLeft": 0
+        "daysLeft": 1
       },
       {
         "symbol": "NIFTY",
@@ -55,7 +128,7 @@
         "exit": 88,
         "points": -15,
         "qty": 65,
-        "daysLeft": 0
+        "daysLeft": 6
       }
     ],
     "guriji": {
